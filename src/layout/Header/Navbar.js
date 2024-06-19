@@ -49,9 +49,9 @@ const Navbar = ({ navDark, insurance, classOption }) => {
             <a className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
               {scroll > headerTop || !navDark ? (
                 <Image
-                  width={150}
-                  height={90}
-                  src={"/saie.png"}
+                  width={170}
+                  height={150}
+                  src={"/saie2.png"}
                   alt="logo"
                   className="object-contain"
                 />
@@ -59,9 +59,9 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <Image
                   // width={130}
                   // height={130}
-                  width={150}
-                  height={90}
-                  src={"/saie.png"}
+                  width={170}
+                  height={150}
+                  src={"/saie2.png"}
                   // src={"/logo-new-white.png"}
                   alt="logo"
                   className=" object-contain"

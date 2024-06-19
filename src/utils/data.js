@@ -64,7 +64,7 @@ const TestimonialData = [
     authorName: "Sanjay Mamidipalli",
     authorTitle: "Saib AI",
     authorQuote:
-      "",
+      "Senior Executive with more than 25 years of experience and deep expertise within the consulting industry selling and delivering next generation data and AI driven transformation programs. Passionate about creating business value through data driven approaches, building senior CXO client relationships, market development and leading high-performing consulting teams.",
   },
 ];
 

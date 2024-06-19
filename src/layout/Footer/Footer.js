@@ -58,21 +58,21 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                   <div className="footer-single-col mb-4">
                     {footerLight ? (
                       <Image
-                        width={130}
-                        height={130}
+                        width={210}
+                        height={170}
                         // src="/logo-1000x.png"
                         // src={"/logo-new.png"}
-                        src={"/saie.png"}
+                        src={"/saie2.png"}
                         alt="logo"
                         className=" object-contain"
                       />
                     ) : (
                       <Image
                         width={210}
-                        height={150}
+                        height={170}
                         // src="/logo-1000x.png"
                         // src={"/logo-new-white.png"}
-                        src={"/saie.png"}
+                        src={"/saie2.png"}
                         alt="logo"
                         className=" object-contain"
                       />
