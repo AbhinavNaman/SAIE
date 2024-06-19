@@ -18,7 +18,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           ></link>
 
-          <title>SMART AI FOR ENTERPRISE INC- AI Solutions</title>
+          {/* <title>SMART AI FOR ENTERPRISE INC- AI Solutions</title> */}
           <meta
             name="title"
             content="SMART AI FOR ENTERPRISE INC- AI Solutions"

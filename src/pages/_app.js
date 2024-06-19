@@ -29,6 +29,7 @@ function MyApp({ Component, pageProps }) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, viewport-fit=cover"
         />
+        <title>SMART AI FOR ENTERPRISE INC- AI Solutions</title>
       </Head>
       <NextTopLoader
         color="#fd8c29"

@@ -20,7 +20,7 @@ export default function MiniCoreServices() {
                   encapsulate the essence of digital transformation.
                 </p>
                 <Link href="/core-services">
-                  <a classNameName="btn bsb-btn-2xl btn-primary rounded-pill">
+                  <a className="btn bsb-btn-2xl btn-primary rounded-pill">
                     Learn More
                   </a>
                 </Link>

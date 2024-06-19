@@ -96,6 +96,7 @@ const Industries = ({ hasBg }) => {
                   //   borderRadius: "12px",
                 }}
                 className="card"
+                key={data.id}
               >
                 <img
                   height={270}
