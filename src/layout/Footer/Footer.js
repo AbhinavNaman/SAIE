@@ -61,7 +61,8 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                         width={130}
                         height={130}
                         // src="/logo-1000x.png"
-                        src={"/logo-new.png"}
+                        // src={"/logo-new.png"}
+                        src={"/saie.png"}
                         alt="logo"
                         className=" object-contain"
                       />

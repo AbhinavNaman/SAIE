@@ -64,17 +64,13 @@ const TestimonialData = [
     authorName: "Sanjay Mamidipalli",
     authorTitle: "Saib AI",
     authorQuote:
-      "Senior Executive with more than 25 years of experience and deep expertise within the consulting industry selling and delivering next generation data and AI driven transformation programs. Passionate about creating business value through data driven approaches, building senior CXO client relationships, market development and leading high-performing consulting teams.",
-  },
-  {
-    id: 2,
-    authorImg: "/p-2.png",
-    authorName: "Amar Bandaru",
-    authorTitle: "Saib AI",
-    authorQuote:""
-      ,
+      "",
   },
 ];
+
+
+// Senior Executive with more than 25 years of experience and deep expertise within the consulting industry selling and delivering next generation data and AI driven transformation programs. Passionate about creating business value through data driven approaches, building senior CXO client relationships, market development and leading high-performing consulting teams.
+
 
       // "Amar is an experienced Strategy and Software Executive with a successful track record spanning over 25 years. His expertise lies in Software Development, Strategic Planning, Mergers and Acquisitions, Product Development, and IT consulting services. Notable achievements include founding and selling CROM Technology, managing acquisitions like Adbakx and Flexon Technologies, and providing strategic consulting in the Market Research Industry. Amar's leadership has been crucial in integrating infrastructure and applications during mergers and establishing offshore teams. He holds a Master's in Technology Spatial Information Technology."
 
