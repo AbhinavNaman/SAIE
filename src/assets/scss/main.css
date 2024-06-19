@@ -1,0 +1,214 @@
+@media (max-width: 768px) {
+  .hero-spc-padding {
+    margin-top: 140px !important;
+  }
+}
+.blog-hero-spc-padding {
+  /* margin-top: 140px !important; */
+  margin-top: -190px !important;
+  padding-top: 200px;
+}
+@media (min-width: 769px) {
+  .navbar-toggler-custom {
+    display: none !important;
+  }
+  .career-wrapper {
+    margin-top: 190px !important;
+  }
+  .promo-card-wrap {
+    height: 25rem;
+  }
+  .swiper {
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
+  }
+  .approach-img {
+    margin-top: -130px !important;
+    margin-bottom: -130px !important;
+  }
+  .approach-img-container {
+    margin-bottom: -290px !important;
+  }
+}
+
+.navbar-toggler-custom {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: 30px;
+  line-height: 1;
+  color: white !important;
+  background-color: transparent;
+  border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+  border-radius: var(--bs-navbar-toggler-border-radius);
+  transition: var(--bs-navbar-toggler-transition);
+}
+
+.hero-spc-padding {
+  padding-top: 65px !important;
+}
+
+.custom-icon {
+  background: #fd8c2936;
+  border-radius: 20px;
+}
+.rounded-custom-new {
+  border-radius: 1rem 1rem 0 0 !important;
+}
+
+.orange-gradient {
+  background: linear-gradient(180deg, #ff8e0c, #924f09) !important;
+}
+.feature-img-holder {
+  /* width: 400px !important; */
+  /* height: 200px !important; */
+}
+.react-multiple-carousel__arrow {
+  z-index: 8 !important;
+}
+.fal {
+  color: #fd8c29 !important;
+}
+
+.text-primary {
+  color: #fd8c29 !important;
+}
+.text-secondary-blue {
+  color: #020f50 !important;
+}
+
+.bg-dark-shade {
+  background-color: #2b386345 !important;
+}
+
+.btn {
+  border-radius: 200px !important;
+}
+
+.header-button {
+  /* background-color: #fd8c29 !important; */
+  background: linear-gradient(45deg, #fd8c29, #c55c00);
+  color: white !important;
+}
+
+.mini-cre-service-card {
+  cursor: pointer !important;
+  height: 450px;
+}
+.founders-card {
+  height: 493px !important;
+}
+
+body {
+  background-color: #0b163f !important;
+  color: white !important;
+}
+
+/* Carousel Component */
+
+/* .carousel {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+  min-height: 100vh;
+  column-gap: 3rem;
+  padding-block: min(20vh, 3rem);
+} */
+
+/* @media screen and (min-width: 48rem) {
+  .carousel {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.slider-btn {
+  display: inline-block;
+  color: #717171;
+  background: #fff;
+  padding: 0.625rem 1.875rem;
+  margin-top: 2.125rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid #c2c2c2;
+  border-radius: 3.125rem;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-btn:hover {
+  border: 0.125rem solid #00a4aa;
+  color: #00a4aa;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 3.125rem;
+} */
+/* 
+.swiper-slide {
+  position: relative;
+  height: 28.125rem;
+  width: 50%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.5s ease-in-out;
+} */
+
+/* .swiper-slide div {
+  display: none;
+  opacity: 0;
+}
+
+.swiper-slide-active .outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+}
+
+.swiper-slide-active .inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 70%;
+  width: 70%;
+}
+
+.swiper-slide-active h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: #ef9232;
+  font-family: oswald;
+}
+
+.swiper-slide-active h3 {
+  color: rgb(0, 0, 0);
+  font-family: oswald;
+}
+
+.swiper-slide-active ul {
+  list-style-type: none;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.swiper-slide-active li {
+  color: #fff;
+  font-family: oswald;
+}
+*/
+.swiper-pagination-bullet {
+  background: #ffffff5d !important;
+}
+
+.request-demo-section {
+  margin-top: 150px !important;
+}
+
+.career-apply-section {
+  margin-top: 180px !important;
+}
