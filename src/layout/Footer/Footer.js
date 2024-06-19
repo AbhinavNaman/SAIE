@@ -68,9 +68,10 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                     ) : (
                       <Image
                         width={210}
-                        height={210}
+                        height={150}
                         // src="/logo-1000x.png"
-                        src={"/logo-new-white.png"}
+                        // src={"/logo-new-white.png"}
+                        src={"/saie.png"}
                         alt="logo"
                         className=" object-contain"
                       />

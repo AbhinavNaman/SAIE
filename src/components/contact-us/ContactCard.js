@@ -20,7 +20,9 @@ const ContactCard = () => {
               <div className="contact-promo-info mb-4">
                 <h4>Email Us</h4>
                 <p>Contact us at</p>
-                <h6 className="text-primary">info@saib.ai</h6>
+                <h6 className="text-primary">
+                {/* info@saib.ai */}
+                </h6>
               </div>
             </div>
           </div>
@@ -33,7 +35,9 @@ const ContactCard = () => {
               <div className="contact-promo-info mb-4">
                 <h4>Phone</h4>
                 <p>Contact us via Phone</p>
-                <h6 className="text-primary">+1-6785963024</h6>
+                <h6 className="text-primary">
+                {/* +1-6785963024 */}
+                </h6>
               </div>
             </div>
           </div>
@@ -46,7 +50,7 @@ const ContactCard = () => {
                 <h4>Our Office</h4>
                 <p>Find us at our office </p>
                 <h6 className="text-primary">
-                  7901 Stoneridge Dr. Suite 390, Pleasanton, CA 94588
+                  {/* 7901 Stoneridge Dr. Suite 390, Pleasanton, CA 94588 */}
                 </h6>
               </div>
             </div>

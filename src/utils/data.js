@@ -71,10 +71,12 @@ const TestimonialData = [
     authorImg: "/p-2.png",
     authorName: "Amar Bandaru",
     authorTitle: "Saib AI",
-    authorQuote:
-      "Amar is an experienced Strategy and Software Executive with a successful track record spanning over 25 years. His expertise lies in Software Development, Strategic Planning, Mergers and Acquisitions, Product Development, and IT consulting services. Notable achievements include founding and selling CROM Technology, managing acquisitions like Adbakx and Flexon Technologies, and providing strategic consulting in the Market Research Industry. Amar's leadership has been crucial in integrating infrastructure and applications during mergers and establishing offshore teams. He holds a Master's in Technology Spatial Information Technology.",
+    authorQuote:""
+      ,
   },
 ];
+
+      // "Amar is an experienced Strategy and Software Executive with a successful track record spanning over 25 years. His expertise lies in Software Development, Strategic Planning, Mergers and Acquisitions, Product Development, and IT consulting services. Notable achievements include founding and selling CROM Technology, managing acquisitions like Adbakx and Flexon Technologies, and providing strategic consulting in the Market Research Industry. Amar's leadership has been crucial in integrating infrastructure and applications during mergers and establishing offshore teams. He holds a Master's in Technology Spatial Information Technology."
 
 const TestimonialOneData = [
   {
