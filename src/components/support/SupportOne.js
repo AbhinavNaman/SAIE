@@ -9,7 +9,8 @@ const SupportOne = ({ className }) => {
   return (
     <section
       style={{
-        background: "linear-gradient(180deg, #ff8e0c, #924f09)",
+        // background: "linear-gradient(180deg, #ff8e0c, #924f09)",
+        background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"
         // background: "url(#e5800cnt-step.jpg')no-repeat center center / cover",
       }}
       className={`${
@@ -48,35 +49,9 @@ const SupportOne = ({ className }) => {
                 </div>
                 <div className="form-block-banner mw-60 m-auto mt-5">
                   <Link href="/request-demo">
-                    <a className="btn btn-primary">Get a Demo</a>
+                    <a className="btn btn-primary" >Get a Demo</a>
                   </Link>
                 </div>
-                {/* <ul className="nav justify-content-center subscribe-feature-list mt-4">
-                  <li className="nav-item">
-                    <span>
-                      <FaRegCheckCircle className="far me-2 text-primary" />
-                      Free 14-day trial
-                    </span>
-                  </li>
-                  <li className="nav-item">
-                    <span>
-                      <FaRegCheckCircle className="far me-2 text-primary" />
-                      No credit card required
-                    </span>
-                  </li>
-                  <li className="nav-item">
-                    <span>
-                      <FaRegCheckCircle className="far me-2 text-primary" />
-                      Support 24/7
-                    </span>
-                  </li>
-                  <li className="nav-item">
-                    <span>
-                      <FaRegCheckCircle className="far me-2 text-primary" />
-                      Cancel anytime
-                    </span>
-                  </li>
-                </ul> */}
               </div>
             </div>
           </div>

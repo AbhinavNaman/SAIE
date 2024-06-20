@@ -46,11 +46,14 @@ const Footer = ({ footerLight, style, footerGradient }) => {
     <>
       <footer className="footer-section">
         <div
-          className={`footer-top ptb-60 ${
-            footerLight ? "footer-light" : "bg-dark"
-          } ${footerGradient ? "bg-gradient" : ""}  text-white`}
-          style={style}
+          className={`footer-top ptb-60 
+            text-black`}
+          // style={style}
         >
+
+{/* ${
+            footerLight ? "footer-light" : "bg-dark"
+          } ${footerGradient ? "bg-gradient" : ""} */}
           <div className="container">
             <div className="row justify-content-between">
               <div className="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
@@ -58,21 +61,21 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                   <div className="footer-single-col mb-4">
                     {footerLight ? (
                       <Image
-                        width={210}
-                        height={170}
+                        width={290}
+                        height={120}
                         // src="/logo-1000x.png"
                         // src={"/logo-new.png"}
-                        src={"/saie2.png"}
+                        src={"/saie.png"}
                         alt="logo"
                         className=" object-contain"
                       />
                     ) : (
                       <Image
-                        width={210}
-                        height={170}
+                        width={290}
+                        height={120}
                         // src="/logo-1000x.png"
                         // src={"/logo-new-white.png"}
-                        src={"/saie2.png"}
+                        src={"/saie.png"}
                         alt="logo"
                         className=" object-contain"
                       />
@@ -101,6 +104,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                       data-wait="Please wait..."
                       className="btn btn-primary mt-3 mt-lg-0 mt-md-0"
                       disabled={loading} // Disable button while loading
+                      style={{background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}
                     />
                   </form>
                 </div>
@@ -124,40 +128,6 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                       </ul>
                     </div>
                   </div>
-                  {/* <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
-                    <div className="footer-single-col">
-                      <h3>Pages</h3>
-                      <ul className="list-unstyled footer-nav-list mb-lg-0">
-                        {footerPages.map((page, i) => (
-                          <li key={i + 1}>
-                            <Link href={page.href}>
-                              <a className="text-decoration-none">
-                                {" "}
-                                {page.title}
-                              </a>
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
-                    <div className="footer-single-col">
-                      <h3>Template</h3>
-                      <ul className="list-unstyled footer-nav-list mb-lg-0">
-                        {footerTemplate.map((template, i) => (
-                          <li key={i + 1}>
-                            <Link href={template.href}>
-                              <a className="text-decoration-none">
-                                {" "}
-                                {template.title}
-                              </a>
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -165,14 +135,16 @@ const Footer = ({ footerLight, style, footerGradient }) => {
         </div>
 
         <div
-          className={`footer-bottom ${
-            footerLight ? "footer-light" : "bg-dark"
-          } ${footerGradient ? "bg-gradient" : ""} text-white py-4`}
+          className={`footer-bottom py-4`}
+          style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)", color:"white"}}
+          //  ${
+          //   footerLight ? "footer-light" : "bg-dark"
+          // } ${footerGradient ? "bg-gradient" : ""}
         >
           <div className="container">
             <div className="row  align-items-center">
               <div className="col-md-7 col-lg-7">
-                <div className="copyright-text">
+                <div className="">
                   <p className="mb-lg-0 mb-md-0">
                     COPYRIGHT &copy; 2024 SMART AI FOR ENTERPRISE INC.  ALL RIGHTS
                     RESERVED.

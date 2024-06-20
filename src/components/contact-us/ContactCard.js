@@ -13,12 +13,12 @@ const ContactCard = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div className="contact-us-promo p-5 bg-dark rounded-custom custom-shadow text-center d-flex flex-column h-100">
+            <div className="contact-us-promo p-5  rounded-custom custom-shadow text-center d-flex flex-column h-100" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
               <span className="fad fa-3x text-primary">
                 <BsFillEnvelopeFill />
               </span>
               <div className="contact-promo-info mb-4">
-                <h4>Email Us</h4>
+                <h4 style={{color:"white"}}>Email Us</h4>
                 <p>Contact us at</p>
                 <h6 className="text-primary">
                 {/* info@saib.ai */}
@@ -28,12 +28,12 @@ const ContactCard = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div className="contact-us-promo p-5 bg-dark rounded-custom custom-shadow text-center d-flex flex-column h-100">
+            <div className="contact-us-promo p-5  rounded-custom custom-shadow text-center d-flex flex-column h-100" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
               <span className="fad fa-3x text-primary">
                 <BsTelephoneInbound />
               </span>
               <div className="contact-promo-info mb-4">
-                <h4>Phone</h4>
+                <h4 style={{color:"white"}}>Phone</h4>
                 <p>Contact us via Phone</p>
                 <h6 className="text-primary">
                 {/* +1-6785963024 */}
@@ -42,12 +42,12 @@ const ContactCard = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div className="contact-us-promo p-5 bg-dark rounded-custom custom-shadow text-center d-flex flex-column h-100">
+            <div className="contact-us-promo p-5 rounded-custom custom-shadow text-center d-flex flex-column h-100" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
               <span className="fad fa-3x text-primary">
                 <BsTelephoneInbound />
               </span>
               <div className="contact-promo-info mb-4">
-                <h4>Our Office</h4>
+                <h4 style={{color:"white"}}>Our Office</h4>
                 <p>Find us at our office </p>
                 <h6 className="text-primary">
                   {/* 7901 Stoneridge Dr. Suite 390, Pleasanton, CA 94588 */}

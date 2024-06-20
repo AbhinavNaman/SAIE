@@ -24,7 +24,8 @@ const StartUpAgencyHome = () => {
   return (
     <Layout>
       <Navbar navDark />
-      <HeroSectionFourth bgDark />
+      {/* <HeroSectionFourth bgDark /> */}
+      <HeroSectionFourth />
       {/* <Customer gray /> */}
       <Industries />
       <PromoThree />
@@ -35,7 +36,8 @@ const StartUpAgencyHome = () => {
 
       <MiniCoreServices />
       <WorkProcessThree />
-      <ServiceOne bgDark />
+      <ServiceOne  />
+      {/* bgDark */}
       <SingleServiceFeature />
       {/* <WorkProcessFive /> */}
       {/* <WorkProcessFour /> */}

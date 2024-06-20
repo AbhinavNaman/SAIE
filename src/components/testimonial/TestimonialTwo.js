@@ -44,9 +44,10 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
   return (
     <>
       <section
-        className={`testimonial-section ${
-          sectionBgClass ? sectionBgClass : "bg-light"
-        } ptb-60`}
+        className={`testimonial-section  ptb-60`}
+        // ${
+        //   sectionBgClass ? sectionBgClass : "bg-light"
+        // }
       >
         <div className="container">
           <div className="row justify-content-center align-content-center">
@@ -73,40 +74,9 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
                 <Swiper {...swiperOption} modules={[Navigation]}>
                   {TestimonialData.map((data, i) => (
                     <SwiperSlide key={i + 1}>
-                      {/* <div
-                        className={`founders-card p-5 rounded-custom position-relative border border-2 ${
-                          swiperBgClass ? swiperBgClass : "bg-light"
-                        }   `}
-                      >
-                        <img
-                          src="/testimonial/quotes-dot.svg"
-                          alt="quotes"
-                          width="100"
-                          className="position-absolute left-0 top-0 z--1 p-3"
-                        />
-                        <div className="d-flex mb-32 align-items-center">
-                          <Image
-                            width={90}
-                            height={110}
-                            src={data.authorImg}
-                            className="img-fluid rounded"
-                            alt="user"
-                          />
-                          <div className="author-info ms-3">
-                            <h5 className="mb-0 text-primary">
-                              {data.authorName}
-                            </h5>
-                          </div>
-                        </div>
-                        <blockquote className="text-white">
-                          <h6 className="text-white">{data.quoteTitle}</h6>
-                          {data.authorQuote}
-                        </blockquote>
-                      </div> */}
+
                       <div
-            className={`founders-card p-5 rounded-custom position-relative border border-2 ${
-              swiperBgClass ? swiperBgClass : "bg-light"
-            }`}
+            className={`founders-card p-5 rounded-custom position-relative border shadow-sm `}
             style={{ width: isSingleItem ? '100%' : 'calc(50% - 15px)' }}  // Adjust width based on the condition
           >
             <img
@@ -129,8 +99,8 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
                 </h5>
               </div>
             </div>
-            <blockquote className="text-white">
-              <h6 className="text-white">{data.quoteTitle}</h6>
+            <blockquote className="" style={{color:"black"}}>
+              <h6 className="">{data.quoteTitle}</h6>
               {data.authorQuote}
             </blockquote>
           </div>

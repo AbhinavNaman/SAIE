@@ -7,10 +7,12 @@ import { brandName } from "../../utils/data";
 const IntegrationTwo = ({ dark, bgWhite }) => {
   return (
     <section
-      className={`integration-section bg-light ptb-60 ${
-        dark ? "bg-dark" : "bg-light"
-      } ptb-60 ${bgWhite ? "bg-white" : ""}`}
+      className={`integration-section bg-light ptb-60 `}
     >
+
+{/* ${
+        dark ? "bg-dark" : "bg-light"
+      } ptb-60 ${bgWhite ? "bg-white" : ""} */}
       <div className="container">
         <div className="row align-items-center justify-content-lg-between">
           <div className="col-lg-6 col-md-12">

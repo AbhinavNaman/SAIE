@@ -12,7 +12,7 @@ import { TbCircleNumber4 } from "react-icons/tb";
 
 const CareerPromo = () => {
   return (
-    <section className="career-promo ptb-60 bg-dark">
+    <section className="career-promo ptb-60 ">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-6 col-md-12">
@@ -40,7 +40,7 @@ const CareerPromo = () => {
             </div>
           </div> */}
           <div className="col-md-6 col-lg-6">
-            <div className="single-feature d-flex mt-0 p-5 bg-white rounded-custom bg-dark-shade">
+            <div className="single-feature d-flex mt-0 p-5 bg-white rounded-custom bg-dark-shade" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
               <span className="fas fa-2x text-primary">
                 {/* <TbCircleNumber1 /> */}
               </span>
@@ -59,7 +59,7 @@ const CareerPromo = () => {
             </div>
           </div>
           <div className="col-md-6 col-lg-6">
-            <div className="single-feature d-flex mt-0 p-5 bg-white rounded-custom bg-dark-shade">
+            <div className="single-feature d-flex mt-0 p-5 bg-white rounded-custom bg-dark-shade" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
               <span className="fas fa-2x text-primary">
                 {/* <TbCircleNumber3 /> */}
               </span>
@@ -78,7 +78,7 @@ const CareerPromo = () => {
             </div>
           </div>
           <div className="col-md-6 col-lg-12">
-            <div className="single-feature d-flex mt-4 p-5 bg-white rounded-custom bg-dark-shade">
+            <div className="single-feature d-flex mt-4 p-5 bg-white rounded-custom bg-dark-shade" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
               <span className="fas fa-2x text-primary">
                 {/* <TbCircleNumber4 /> */}
               </span>

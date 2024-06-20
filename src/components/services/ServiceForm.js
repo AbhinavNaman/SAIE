@@ -111,7 +111,7 @@ const ServiceForm = () => {
   return (
     <>
       <div className="col-xl-5 col-lg-7 col-md-12 order-0 order-lg-1">
-        <div className="register-wrap p-5 bg-white shadow rounded-custom mt-4">
+        <div className="register-wrap p-5 bg-white shadow-lg border rounded-custom mt-4">
           <h3 className="fw-medium text-primary">
             Fill out the form and we will be in touch as soon as possible.
           </h3>
@@ -556,6 +556,7 @@ const ServiceForm = () => {
                   type="submit"
                   className="btn btn-primary mt-4 d-block w-100"
                   disabled={loading}
+                  style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}
                 >
                   {loading ? "Loading..." : "Get Started"}
                 </button>

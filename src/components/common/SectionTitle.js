@@ -18,18 +18,18 @@ const SectionTitle = ({
           } ${classNam}`}
         >
           <h4
-            style={{ color: "#fd8c29" }}
+            style={{ color: "#3fa9f5" }}
             className={`h5 ${dark ? "text-warning" : "text-primary"}`}
           >
             {title}
           </h4>
           <h2
-            style={{ color: "#fd8c29" }}
+            style={{ color: "#3fa9f5" }}
             className={`${textWhite ? "text-white" : ""}`}
           >
             {subtitle}
           </h2>
-          <p>{description}</p>
+          <p style={{ color: "black" }}>{description}</p>
         </div>
       ) : (
         <div
@@ -37,8 +37,8 @@ const SectionTitle = ({
             centerAlign ? "section-heading text-center" : "section-heading"
           } ${classNam}`}
         >
-          <h2 style={{ color: "#fd8c29" }}>{title}</h2>
-          <p style={{ color: "#ffffffd6" }}>{description}</p>
+          <h2 style={{ color: "#3fa9f5" }}>{title}</h2>
+          <p style={{ color: "black" }}>{description}</p>
         </div>
       )}
     </>

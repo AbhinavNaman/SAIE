@@ -19,7 +19,7 @@ const Integrations = () => {
         title="Core Services"
         desc="At SMART AI FOR ENTERPRISE INC we are dedicated to providing solutions that not only drive innovation but are also grounded in responsibility and user-centric design. Our core services encapsulate the essence of digital transformation."
       />
-      <section className="orange-gradient promo-section ptb-60">
+      <section className=" promo-section ptb-60" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-md-10 col-lg-6">

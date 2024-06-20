@@ -24,11 +24,13 @@ const HeroSectionFourth = ({ bgDark }) => {
       style={{
         background:
           "url('/shape/dot-dot-wave-shape.svg')no-repeat bottom center",
+          // backgroundColor:"white",
       }}
     >
       <div className="container hero-spc-padding">
-        <div className="row align-items-center justify-content-lg-between">
-          <div className="col-xl-5 col-lg-5">
+        <div className="row  justify-content-lg-between">
+        {/* align-items-center */}
+          <div className="col-xl-5 col-lg-5 " style={{paddingTop:"100px"}}>
             <div className="hero-content-wrap mt text-center text-xl-start text-lg-start">
               <HeroTitle
                 title="Empowering Enterprise Businesses Through Domain Specific Innovative AI Services"
@@ -41,7 +43,7 @@ const HeroSectionFourth = ({ bgDark }) => {
           </div>
           <div className="col-xl-6 col-lg-6 mt-4 mt-xl-0">
             <div className="hero-img-wrap position-relative">
-              {!bgDark && (
+              {/* {!bgDark && (
                 <ul className="position-absolute animate-element parallax-element shape-service hide-medium">
                   <li className="layer" data-depth="0.03">
                     <img
@@ -65,7 +67,7 @@ const HeroSectionFourth = ({ bgDark }) => {
                     />
                   </li>
                 </ul>
-              )}
+              )} */}
               <div className="hero-img-wrap position-relative">
                 <div className="hero-screen-wrap">
                   <div className="mac-screen">

@@ -7,9 +7,10 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
     <>
       {integration ? (
         <section
-          className="blog-hero-spc-padding page-header position-relative overflow-hidden pb-120 bg-dark"
+          className="blog-hero-spc-padding page-header position-relative overflow-hidden pb-120"
           style={{
             background: "url('/page-header-bg.svg')no-repeat bottom left",
+              backgroundColor:"white"
           }}
         >
           <div className="container">
@@ -27,7 +28,7 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
                   </div>
                   <div className="company-overview">
                     <h1 className="display-5 fw-bold text-primary">{title}</h1>
-                    <p className="lead mb-0">{desc}</p>
+                    <p className="lead mb-0" style={{color:"black"}}>{desc}</p>
                   </div>
                 </div>
               </div>
@@ -45,9 +46,10 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
         </section>
       ) : (
         <section
-          className="blog-hero-spc-padding page-header position-relative overflow-hidden ptb-60 bg-dark"
+          className="blog-hero-spc-padding page-header position-relative overflow-hidden ptb-60"
           style={{
             background: "url('/page-header-bg.svg')no-repeat bottom left",
+            backgroundColor:"white"
           }}
         >
           <div className="container">
@@ -58,7 +60,7 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
             >
               <div className="col-lg-8 col-md-12">
                 <h1 className="display-5 fw-bold text-primary">{title}</h1>
-                <p className="lead">{desc}</p>
+                <p className="lead" style={{color:"black"}}>{desc}</p>
               </div>
             </div>
             {blogtags ? (

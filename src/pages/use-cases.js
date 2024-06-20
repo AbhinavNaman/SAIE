@@ -292,6 +292,7 @@ const Integrations = () => {
       />
       <SingleServicePromo />
       <SingleServiceRegister />
+      <hr/>
       <Footer />
     </Layout>
   );

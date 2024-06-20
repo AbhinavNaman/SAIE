@@ -20,7 +20,7 @@ const HeroTitle = ({ subtitle, title, desc }) => {
           1000,
         ]}
         speed={50}
-        style={{ color: "white", marginTop: "10px" }}
+        style={{ marginTop: "10px" }}
         className="max-w-6xl max-h-20 overflow-hidden"
         repeat={Infinity}
       />

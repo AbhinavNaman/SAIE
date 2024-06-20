@@ -5,7 +5,8 @@ const UseCaseTitle = ({ title, desc, type, image, icon }) => {
     <section
       className="ptb-60"
       style={{
-        background: "url('/payment-step.jpg')no-repeat center center / cover",
+        // background: "url('/payment-step.jpg')no-repeat center center / cover",
+          background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"
       }}
     >
       <div className="container">

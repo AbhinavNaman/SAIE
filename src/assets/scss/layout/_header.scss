@@ -14,7 +14,7 @@
   width: 100%;
   z-index: 9;
   animation: 300ms ease-in-out fadeInDown;
-  background: $dark;
+  // background: $dark;
   padding: 10px 0;
   transition: $transition-base;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -116,8 +116,8 @@
 }
 .navbar-light.sticky-header.affix,
 .navbar-dark.sticky-header.affix {
-  background: #0a163ee3;
-  backdrop-filter: blur(12px);
+  // background: #0a163ee3;
+  backdrop-filter: blur(250px);
 }
 .navbar-light.sticky-header.affix .btn,
 .navbar-dark.sticky-header.affix .btn,

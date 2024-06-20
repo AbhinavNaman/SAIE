@@ -38,6 +38,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
       } w-100 ${classOption} ${
         insurance && "ins-header main-header w-100 z-10"
       }`}
+      style={{backgroundColor:"white", color: "black"}}
     >
       <nav
         className={`navbar navbar-expand-xl z-50 ${
@@ -49,9 +50,9 @@ const Navbar = ({ navDark, insurance, classOption }) => {
             <a className="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
               {scroll > headerTop || !navDark ? (
                 <Image
-                  width={170}
-                  height={150}
-                  src={"/saie2.png"}
+                  width={180}
+                  height={70}
+                  src={"/saie.png"}
                   alt="logo"
                   className="object-contain"
                 />
@@ -59,9 +60,9 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <Image
                   // width={130}
                   // height={130}
-                  width={170}
-                  height={150}
-                  src={"/saie2.png"}
+                  width={180}
+                  height={70}
+                  src={"/saie.png"}
                   // src={"/logo-new-white.png"}
                   alt="logo"
                   className=" object-contain"
@@ -85,89 +86,11 @@ const Navbar = ({ navDark, insurance, classOption }) => {
           <div className="clearfix"></div>
           <div className="collapse navbar-collapse justify-content-center">
             <ul className="nav col-12 col-md-auto justify-content-center main-menu">
-              {/* <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Home
-                </a>
-                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                  <div className="dropdown-grid rounded-custom width-full">
-                    <div className="dropdown-grid-item">
-                      <h6 className="drop-heading">Different Home</h6>
-                      {navHomeOne.map((navH, i) => (
-                        <span key={i + 1}>
-                          <Link href={navH.href}>
-                            <a className="dropdown-link">
-                              <span className="demo-list bg-primary rounded text-white fw-bold">
-                                {i + 1}
-                              </span>
-                              <span className="dropdown-info mb-0">
-                                <span className="drop-title">{navH.title}</span>
-                                <span>{navH.info}</span>
-                              </span>
-                            </a>
-                          </Link>
-                        </span>
-                      ))}
-                    </div>
-                    <div className="dropdown-grid-item radius-right-side bg-light">
-                      <h6 className="drop-heading">Different Home</h6>
-                      {navHomeTwo.map((navH, i) => (
-                        <span key={i + 10}>
-                          <Link href={navH.href}>
-                            <a className="dropdown-link">
-                              <span className="demo-list bg-primary rounded text-white fw-bold">
-                                {i + 10}
-                              </span>
-                              <span className="dropdown-info mb-0">
-                                <span className="drop-title">{navH.title}</span>
-                                <span>{navH.info}</span>
-                              </span>
-                            </a>
-                          </Link>
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </li> */}
-              {/* <li>
-                <Link href="about-us">
-                  <a className="nav-link">Home</a>
-                </Link>
-              </li> */}
-              {/* <li>
-                <Link href="about-us">
-                  <a className="nav-link">About</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="about-us">
-                  <a className="nav-link">About</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="services">
-                  <a className="nav-link">Services</a>
-                </Link>
-              </li>
-
-              <li>
-                <Link href="pricing">
-                  <a className="nav-link">Blog</a>
-                </Link>
-              </li>
-               */}
               <li>
                 <Link href="/">
                   <a
                     style={{
-                      color: router.pathname === "/" ? "#fd8c29" : "",
+                      color: router.pathname === "/" ? "#3fa9f5" : "black",
                     }}
                     className="nav-link"
                   >
@@ -180,7 +103,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   <a
                     style={{
                       color:
-                        router.pathname === "/core-services" ? "#fd8c29" : "",
+                        router.pathname === "/core-services" ? "#3fa9f5" : "black",
                     }}
                     className="nav-link"
                   >
@@ -192,7 +115,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <Link href="/use-cases">
                   <a
                     style={{
-                      color: router.pathname === "/use-cases" ? "#fd8c29" : "",
+                      color: router.pathname === "/use-cases" ? "#3fa9f5" : "black",
                     }}
                     className="nav-link"
                   >
@@ -204,7 +127,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <Link href="/blogs">
                   <a
                     style={{
-                      color: router.pathname === "/blogs" ? "#fd8c29" : "",
+                      color: router.pathname === "/blogs" ? "#3fa9f5" : "black",
                     }}
                     className="nav-link"
                   >
@@ -218,8 +141,8 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                     style={{
                       color:
                         router.pathname === "/company-overview"
-                          ? "#fd8c29"
-                          : "",
+                          ? "#3fa9f5"
+                          : "black",
                     }}
                     className="nav-link"
                   >
@@ -228,51 +151,6 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 </Link>
               </li>
 
-              {/* <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Company
-                </a>
-                <div className="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
-                  <div className="dropdown-grid rounded-custom width-full">
-                    <div className="dropdown-grid-item">
-                      <h6 className="drop-heading">Useful Links</h6>
-                      {navCompanyLinks.map((navLink, i) => (
-                        <div key={i + 1}>
-                          <Link href={navLink.href}>
-                            <a className="dropdown-link px-0">
-                              <span className="me-2">{navLink.icon}</span>
-                              <span className="drop-title mb-0">
-                                {navLink.title}{" "}
-                              </span>
-                            </a>
-                          </Link>
-                        </div>
-                      ))}
-                    </div>
-                    <div className="dropdown-grid-item radius-right-side bg-light">
-                      <h6 className="drop-heading">Utility Pages</h6>
-                      {navCompanyPage.map((navPage, i) => (
-                        <div key={i + 1}>
-                          <Link href={navPage.href}>
-                            <a className="dropdown-link">
-                              <span className="me-2">{navPage.icon}</span>
-                              <span className="drop-title mb-0">
-                                {navPage.title}{" "}
-                              </span>
-                            </a>
-                          </Link>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </li> */}
             </ul>
           </div>
 
@@ -284,6 +162,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                     ? "ins-btn ins-primary-btn"
                     : "btn btn-primary header-button"
                 }
+                style={{background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}
               >
                 Book a Demo
               </a>

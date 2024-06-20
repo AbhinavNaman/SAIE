@@ -26,20 +26,20 @@ const UseCaseSectionOne = ({
                     <span className="fal custom-icon text-white">{icon}</span>
                   </div>
                   <h2 className="text-primary">{title}</h2>
-                  <p className="text-white">{desc}</p>
+                  <p style={{color:"black"}}>{desc}</p>
                   <div>
                     {challenges ? (
-                      <h6 className="text-primary">Current Challenges:</h6>
+                      <h6 className="text-primary" style={{color:"black"}}>Current Challenges:</h6>
                     ) : (
                       <></>
                     )}
                     <ul>{challenges}</ul>
                     {challenges ? (
-                      <h6 className="text-primary">Value Propositions:</h6>
+                      <h6 className="text-primary" style={{color:"black"}}>Value Propositions:</h6>
                     ) : (
                       <></>
                     )}
-                    <ul>{propositions}</ul>
+                    <ul style={{color:"black"}}>{propositions}</ul>
                   </div>
                 </div>
               </div>
@@ -70,21 +70,21 @@ const UseCaseSectionOne = ({
                     </span>
                   </div>
                   <h2 className="text-primary">{title}</h2>
-                  <p className="text-white">{desc}</p>
+                  <p style={{color:"black"}}>{desc}</p>
 
                   <div>
                     {challenges ? (
-                      <h6 className="text-primary">Current Challenges:</h6>
+                      <h6 className="text-primary" style={{color:"black"}}>Current Challenges:</h6>
                     ) : (
                       <></>
                     )}
-                    <ul>{challenges}</ul>
+                    <ul style={{color:"black"}}>{challenges}</ul>
                     {challenges ? (
-                      <h6 className="text-primary">Value Propositions:</h6>
+                      <h6 className="text-primary" style={{color:"black"}}>Value Propositions:</h6>
                     ) : (
                       <></>
                     )}
-                    <ul>{propositions}</ul>
+                    <ul style={{color:"black"}}>{propositions}</ul>
                   </div>
                 </div>
               </div>
