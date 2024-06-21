@@ -3,7 +3,7 @@ import React from "react";
 const SingleServicePromo = () => {
   return (
     <section
-      style={{   background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)" }}
+      style={{   background: "linear-gradient(115deg, #3fea2c, #31c47f)" }}
       className="promo-section ptb-60"
     >
       <div className="container">

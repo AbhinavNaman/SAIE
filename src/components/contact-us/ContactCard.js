@@ -13,7 +13,7 @@ const ContactCard = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div className="contact-us-promo p-5  rounded-custom custom-shadow text-center d-flex flex-column h-100" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
+            <div className="contact-us-promo p-5  rounded-custom custom-shadow text-center d-flex flex-column h-100" style={{  background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}>
               <span className="fad fa-3x text-primary">
                 <BsFillEnvelopeFill />
               </span>
@@ -28,7 +28,7 @@ const ContactCard = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div className="contact-us-promo p-5  rounded-custom custom-shadow text-center d-flex flex-column h-100" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
+            <div className="contact-us-promo p-5  rounded-custom custom-shadow text-center d-flex flex-column h-100" style={{  background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}>
               <span className="fad fa-3x text-primary">
                 <BsTelephoneInbound />
               </span>
@@ -42,7 +42,7 @@ const ContactCard = () => {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div className="contact-us-promo p-5 rounded-custom custom-shadow text-center d-flex flex-column h-100" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
+            <div className="contact-us-promo p-5 rounded-custom custom-shadow text-center d-flex flex-column h-100" style={{  background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}>
               <span className="fad fa-3x text-primary">
                 <BsTelephoneInbound />
               </span>

@@ -40,7 +40,7 @@ const CareerPromo = () => {
             </div>
           </div> */}
           <div className="col-md-6 col-lg-6">
-            <div className="single-feature d-flex mt-0 p-5 bg-white rounded-custom bg-dark-shade" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
+            <div className="single-feature d-flex mt-0 p-5 bg-white rounded-custom bg-dark-shade" style={{  background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}>
               <span className="fas fa-2x text-primary">
                 {/* <TbCircleNumber1 /> */}
               </span>
@@ -59,7 +59,7 @@ const CareerPromo = () => {
             </div>
           </div>
           <div className="col-md-6 col-lg-6">
-            <div className="single-feature d-flex mt-0 p-5 bg-white rounded-custom bg-dark-shade" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
+            <div className="single-feature d-flex mt-0 p-5 bg-white rounded-custom bg-dark-shade" style={{  background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}>
               <span className="fas fa-2x text-primary">
                 {/* <TbCircleNumber3 /> */}
               </span>
@@ -78,7 +78,7 @@ const CareerPromo = () => {
             </div>
           </div>
           <div className="col-md-6 col-lg-12">
-            <div className="single-feature d-flex mt-4 p-5 bg-white rounded-custom bg-dark-shade" style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
+            <div className="single-feature d-flex mt-4 p-5 bg-white rounded-custom bg-dark-shade" style={{  background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}>
               <span className="fas fa-2x text-primary">
                 {/* <TbCircleNumber4 /> */}
               </span>

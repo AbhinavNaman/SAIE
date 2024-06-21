@@ -10,7 +10,7 @@ const SupportOne = ({ className }) => {
     <section
       style={{
         // background: "linear-gradient(180deg, #ff8e0c, #924f09)",
-        background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"
+        background: "linear-gradient(115deg, #3fea2c, #31c47f)"
         // background: "url(#e5800cnt-step.jpg')no-repeat center center / cover",
       }}
       className={`${
@@ -37,7 +37,7 @@ const SupportOne = ({ className }) => {
             <div className="col-lg-7 col-md-8">
               <div className="subscribe-info-wrap text-center position-relative z-2">
                 <div className="section-heading">
-                  <h4 className="h5">Let&apos;s Try! Get Free Demo</h4>
+                  <h4 className="h5" style={{color:"white"}}>Let&apos;s Try! Get Free Demo</h4>
                   <h1 className="text-white">
                     Get a Specialized Demo for Free
                   </h1>
@@ -49,7 +49,7 @@ const SupportOne = ({ className }) => {
                 </div>
                 <div className="form-block-banner mw-60 m-auto mt-5">
                   <Link href="/request-demo">
-                    <a className="btn btn-primary" >Get a Demo</a>
+                    <a className="btn btn-primary" style={{backgroundColor:"#3fa9f5"}}>Get a Demo</a>
                   </Link>
                 </div>
               </div>

@@ -104,7 +104,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                       data-wait="Please wait..."
                       className="btn btn-primary mt-3 mt-lg-0 mt-md-0"
                       disabled={loading} // Disable button while loading
-                      style={{background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}
+                      style={{background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}
                     />
                   </form>
                 </div>
@@ -136,7 +136,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
 
         <div
           className={`footer-bottom py-4`}
-          style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)", color:"white"}}
+          style={{  background: "linear-gradient(115deg, #3fea2c, #31c47f)", color:"white"}}
           //  ${
           //   footerLight ? "footer-light" : "bg-dark"
           // } ${footerGradient ? "bg-gradient" : ""}

@@ -6,7 +6,7 @@ export default function WorkProcessFive() {
       className="ptb-60"
       style={{
         // background: "linear-gradient(180deg, #ff8e0c, #924f09)",
-        background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"
+        background: "linear-gradient(115deg, #3fea2c, #31c47f)"
 
         // background: "url(#e5800cnt-step.jpg')no-repeat center center / cover",
       }}

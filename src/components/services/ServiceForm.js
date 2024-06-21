@@ -556,7 +556,7 @@ const ServiceForm = () => {
                   type="submit"
                   className="btn btn-primary mt-4 d-block w-100"
                   disabled={loading}
-                  style={{  background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}
+                  style={{  background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}
                 >
                   {loading ? "Loading..." : "Get Started"}
                 </button>

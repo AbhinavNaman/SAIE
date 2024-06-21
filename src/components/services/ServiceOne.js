@@ -14,9 +14,9 @@ const ServiceOne = ({ bgDark }) => {
   const handleMouseLeave = () => setHoveredIndex(null);
 
   const baseStyle = { color: "black" };
-  const hoverStyle = { background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)", color: "white" };
+  const hoverStyle = { background: "linear-gradient(115deg, #3fea2c, #31c47f)", color: "white" };
 
-  // style={{background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}
+  // style={{background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}
 
   const features = [
     {

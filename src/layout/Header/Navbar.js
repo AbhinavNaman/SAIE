@@ -162,7 +162,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                     ? "ins-btn ins-primary-btn"
                     : "btn btn-primary header-button"
                 }
-                style={{background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}
+                style={{background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}
               >
                 Book a Demo
               </a>

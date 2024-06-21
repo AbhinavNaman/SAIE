@@ -7,7 +7,7 @@ export default function MiniCoreServices() {
   const handleMouseEnter = (index) => setHoveredCard(index);
   const handleMouseLeave = () => setHoveredCard(null);
 
-  const baseStyle = {   background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)", color: "white" };
+  const baseStyle = {   background: "linear-gradient(115deg, #3fea2c, #31c47f)", color: "white" };
   const hoverStyle = { backgroundColor: "white", color: "#00205f", border: "1px solid #00205f" };
 
 
@@ -104,7 +104,7 @@ export default function MiniCoreServices() {
                   encapsulate the essence of digital transformation.
                 </p>
                 <Link href="/core-services">
-                  <a className="btn bsb-btn-2xl btn-primary rounded-pill" style={{background: "linear-gradient(180deg, #0644A1 0%, #0F79E0 100%)"}}>
+                  <a className="btn bsb-btn-2xl btn-primary rounded-pill" style={{background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}>
                     Learn More
                   </a>
                 </Link>
