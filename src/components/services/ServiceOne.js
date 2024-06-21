@@ -15,6 +15,7 @@ const ServiceOne = ({ bgDark }) => {
 
   const baseStyle = { color: "black" };
   const hoverStyle = { background: "linear-gradient(115deg, #3fea2c, #31c47f)", color: "white" };
+  const hoverText = { color: "white" };
 
   // style={{background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}
 
@@ -86,11 +87,12 @@ const ServiceOne = ({ bgDark }) => {
                   onMouseLeave={handleMouseLeave}
                   style={hoveredIndex === index ? hoverStyle : baseStyle}
                 >
-                  <div className="icon-box d-inline-block rounded-circle bg-danger-soft mb-32">
+                  <div className="icon-box d-inline-block rounded-circle  mb-32" style={{backgroundColor:"white"}}>
                     <span className="fal">{feature.icon}</span>
                   </div>
                   <div className="feature-content">
-                    <h3 className="text-primary h5">{feature.title}</h3>
+                  <h3 className=" h5" style={hoveredIndex === index ? hoverText : {color:"#3fa9f5"}}>{feature.title}</h3>
+
                     <p className="mb-0">{feature.description}</p>
                   </div>
                   <Link href={feature.link}>
