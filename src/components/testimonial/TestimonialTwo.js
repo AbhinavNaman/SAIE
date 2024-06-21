@@ -89,14 +89,14 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
                 style={{ width: "100%", height: "auto" }}
               />
           </div>
-            <div className="d-flex " style={{ display: "flex", flexDirection: "column", flex: "2 1 67%",  marginBottom: 0, paddingBottom: 0 }}>
-              <div className="author-info ms-5">
+            <div style={{ display: "flex", flexDirection: "column", flex: "2 1 67%",  marginBottom: 0, paddingBottom: 0 }}>
+              <div className=" ms-5" style={{ marginBottom: 0, paddingBottom: 0}}>
                 <h1 className="mb-0 text-primary">
                   {data?.authorName}
                   <br />
                 </h1>
                 <h3 style={{marginBottom:"30px"}}>{data?.authorTitle}</h3>
-            <blockquote style={{ color: "black" }}>
+            <blockquote style={{ color: "black",  marginBottom: 0, paddingBottom: 0 }}>
               {data?.authorQuote}
             </blockquote>
               </div>
