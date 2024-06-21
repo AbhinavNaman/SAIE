@@ -61,8 +61,8 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                   <div className="footer-single-col mb-4">
                     {footerLight ? (
                       <Image
-                        width={290}
-                        height={120}
+                        width={310}
+                        height={150}
                         // src="/logo-1000x.png"
                         // src={"/logo-new.png"}
                         src={"/saie.png"}
@@ -71,8 +71,8 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                       />
                     ) : (
                       <Image
-                        width={290}
-                        height={120}
+                        width={310}
+                        height={150}
                         // src="/logo-1000x.png"
                         // src={"/logo-new-white.png"}
                         src={"/saie.png"}

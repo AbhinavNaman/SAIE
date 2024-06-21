@@ -51,7 +51,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
               {scroll > headerTop || !navDark ? (
                 <Image
                   width={180}
-                  height={150}
+                  height={80}
                   src={"/saie.png"}
                   alt="logo"
                   className="object-contain"
@@ -61,7 +61,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   // width={130}
                   // height={130}
                   width={180}
-                  height={150}
+                  height={80}
                   src={"/saie.png"}
                   // src={"/logo-new-white.png"}
                   alt="logo"
