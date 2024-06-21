@@ -6,7 +6,15 @@ import { Navigation } from "swiper";
 
 import Rating from "../common/Rating";
 import SectionTitle from "../common/SectionTitle";
-import { TestimonialData } from "../../utils/data";
+// import { TestimonialData } from "../../utils/data";
+
+const data = {
+  authorImg: "/p-1.png",
+  authorName: "Sanjay Mamidipalli",
+  authorTitle: "Saib AI",
+  authorQuote:
+    "Senior Executive with more than 25 years of experience and deep expertise within the consulting industry selling and delivering next generation data and AI driven transformation programs. Passionate about creating business value through data driven approaches, building senior CXO client relationships, market development and leading high-performing consulting teams.",
+};
 
 const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
   const swiperOption = {
@@ -40,7 +48,7 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
       },
     },
   };
-  const isSingleItem = TestimonialData.length === 1;
+  // const isSingleItem = TestimonialData.length === 1;
   return (
     <>
       <section
@@ -54,64 +62,43 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
             <div className="col-md-10 col-lg-6">
               {sectionBgClass ? (
                 <SectionTitle
-                  subtitle="Our Founders"
+                  subtitle="Our Founder"
                   description="We have a team of dedicated professionals who are committed to delivering the best results for our clients. Our team is a mix of experienced professionals and young talent, who are passionate about what they do."
                   darkBg
                   centerAlign
                 />
               ) : (
                 <SectionTitle
-                  subtitle="Our Founders"
+                  subtitle="Our Founder"
                   description="We have a team of dedicated professionals who are committed to delivering the best results for our clients. Our team is a mix of experienced professionals and young talent, who are passionate about what they do."
                   centerAlign
                 />
               )}
             </div>
           </div>
-          <div className="row">
-            <div className="col-12">
-              <div className="position-relative">
-                <Swiper {...swiperOption} modules={[Navigation]}>
-                  {TestimonialData.map((data, i) => (
-                    <SwiperSlide key={i + 1}>
 
-                      <div
-            className={`founders-card p-5 rounded-custom position-relative border shadow-sm `}
-            style={{ width: isSingleItem ? '100%' : 'calc(50% - 15px)' }}  // Adjust width based on the condition
-          >
-            <img
-              src="/testimonial/quotes-dot.svg"
-              alt="quotes"
-              width="100"
-              className="position-absolute left-0 top-0 z--1 p-3"
-            />
-            <div className="d-flex mb-32 align-items-center">
+          <div className="founders-card p-5 rounded-custom border shadow-sm " style={{display:"flex"}}>
+          <div style={{ flex: "1 1 33%", marginRight: "20px" }}>
+
               <Image
-                width={90}
-                height={110}
+                width={300}
+                height={300}
                 src={data.authorImg}
-                className="img-fluid rounded"
+                className="img-fluid rounded-custom  shadow-sm"
                 alt="user"
+                style={{ width: "100%", height: "auto" }}
               />
-              <div className="author-info ms-3">
-                <h5 className="mb-0 text-primary">
-                  {data.authorName}
-                </h5>
-              </div>
-            </div>
-            <blockquote className="" style={{color:"black"}}>
-              <h6 className="">{data.quoteTitle}</h6>
-              {data.authorQuote}
-            </blockquote>
           </div>
-          
-                    </SwiperSlide>
-                  ))}
-                </Swiper>
-                <div className="swiper-nav-control">
-                  <span className="swiper-button-next"></span>
-                  <span className="swiper-button-prev"></span>
-                </div>
+            <div className="d-flex " style={{ display: "flex", flexDirection: "column", flex: "2 1 67%",  marginBottom: 0, paddingBottom: 0 }}>
+              <div className="author-info ms-5">
+                <h1 className="mb-0 text-primary">
+                  {data?.authorName}
+                  <br />
+                </h1>
+                <h3 style={{marginBottom:"30px"}}>{data?.authorTitle}</h3>
+            <blockquote style={{ color: "black" }}>
+              {data?.authorQuote}
+            </blockquote>
               </div>
             </div>
           </div>
