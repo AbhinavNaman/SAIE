@@ -91,7 +91,7 @@ const ServiceOne = ({ bgDark }) => {
                     <span className="fal">{feature.icon}</span>
                   </div>
                   <div className="feature-content">
-                  <h3 className=" h5" style={hoveredIndex === index ? hoverText : {color:"#3fa9f5"}}>{feature.title}</h3>
+                  <h3 className=" h5" style={hoveredIndex === index ? { color: "white" } : {color:"#3fa9f5"}}>{feature.title}</h3>
 
                     <p className="mb-0">{feature.description}</p>
                   </div>
