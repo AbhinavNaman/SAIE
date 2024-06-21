@@ -95,12 +95,12 @@ const Industries = ({ hasBg }) => {
                   margin: "0 10px",
                   //   borderRadius: "12px",
                 }}
-                className="card"
+                className="card rounded-custom"
                 key={data.id}
               >
                 <img
                   height={270}
-                  className="card-img capabilities-img rounded-0 cover"
+                  className="card-img capabilities-img  cover rounded-custom"
                   src={data.url}
                   style={
                     {
@@ -115,7 +115,7 @@ const Industries = ({ hasBg }) => {
                     width={300}
                     height={270}
                   /> */}
-                <div className="industries-card-img-overlay p-0">
+                <div className="industries-card-img-overlay p-0 rounded-custom">
                   <div className="card-block">
                     <h3 className="card-title fw-bold text-primary">
                       {data.title}
