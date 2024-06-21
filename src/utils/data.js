@@ -1428,74 +1428,16 @@ const helpCenterFaqDetails = [
 
 //desktop app integration two
 const brandName = [
-  {
-    image: "/companylogos/tcs.svg",
-    brand: "TCS Consultancy",
-  },
-  {
-    image: "/companylogos/apple.svg",
-    brand: "Apple",
-  },
-  {
-    image: "/companylogos/ut.svg",
-    brand: "MD Anderson Cancer Center",
-  },
-  {
-    image: "/companylogos/walmart.svg",
-    brand: "Walmart",
-  },
-  {
-    image: "/companylogos/techmahindra.svg",
-    brand: "Tech Mahindra",
-  },
-  {
-    image: "/companylogos/google.svg",
-    brand: "Google",
-  },
-  {
-    image: "/companylogos/optum.svg",
-    brand: "Optum",
-  },
-  {
-    image: "/companylogos/ny.svg",
-    brand: "New york State of Opportunity",
-  },
-  {
-    image: "/companylogos/ntt.svg",
-    brand: "NTT Data",
-  },
+
   {
     image: "/companylogos/oracle.svg",
     brand: "Oracle",
   },
   {
-    image: "/companylogos/merck.svg",
-    brand: "MERCK",
+    image: "/companylogos/ibm.webp",
+    brand: "IBM",
   },
-  {
-    image: "/companylogos/cap.svg",
-    brand: "Capgemini",
-  },
-  {
-    image: "/companylogos/tek.svg",
-    brand: "TEK Systems",
-  },
-  {
-    image: "/companylogos/pge.svg",
-    brand: "PG&E",
-  },
-  {
-    image: "/companylogos/genentech.svg",
-    brand: "Genentech",
-  },
-  {
-    image: "/companylogos/bcbs.svg",
-    brand: "Blue Cross Blue Shield",
-  },
-  {
-    image: "/companylogos/hcl.svg",
-    brand: "HCL",
-  },
+  
 ];
 //Service IT
 const ItServiceData = [

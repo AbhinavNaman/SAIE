@@ -11,7 +11,7 @@ import SectionTitle from "../common/SectionTitle";
 const data = {
   authorImg: "/p-1.png",
   authorName: "Sanjay Mamidipalli",
-  authorTitle: "Saib AI",
+  authorTitle: "SAIE AI",
   authorQuote:
     "Senior Executive with more than 25 years of experience and deep expertise within the consulting industry selling and delivering next generation data and AI driven transformation programs. Passionate about creating business value through data driven approaches, building senior CXO client relationships, market development and leading high-performing consulting teams.",
 };
