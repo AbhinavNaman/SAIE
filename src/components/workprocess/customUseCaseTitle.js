@@ -13,8 +13,8 @@ const UseCaseTitle = ({ title, desc, type, image, icon }) => {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="text-center">
-              <div className="text-primary mb-3 h3">{title}</div>
-              <p className="text-off-white">{desc}</p>
+              <div className="mb-3 h3" style={{color:"#00205e"}}>{title}</div>
+              <p className="text-off-white" style={{color:"#00205e"}}>{desc}</p>
             </div>
           </div>
         </div>

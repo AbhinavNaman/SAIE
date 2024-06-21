@@ -145,7 +145,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
             <div className="row  align-items-center">
               <div className="col-md-7 col-lg-7">
                 <div className="">
-                  <p className="mb-lg-0 mb-md-0">
+                  <p className="mb-lg-0 mb-md-0" style={{color:"#00205e"}}>
                     COPYRIGHT &copy; 2024 SMART AI FOR ENTERPRISE INC.  ALL RIGHTS
                     RESERVED.
                   </p>

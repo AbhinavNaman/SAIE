@@ -37,11 +37,12 @@ const SupportOne = ({ className }) => {
             <div className="col-lg-7 col-md-8">
               <div className="subscribe-info-wrap text-center position-relative z-2">
                 <div className="section-heading">
-                  <h4 className="h5" style={{color:"white"}}>Let&apos;s Try! Get Free Demo</h4>
-                  <h1 className="text-white">
+                  <h4 className="h5" style={{color:"#00205e"}}>Let&apos;s Try! Get Free Demo</h4>
+                  <h1 className="" style={{color:"#00205e"}}>
                     Get a Specialized Demo for Free
                   </h1>
-                  <p className="text-white">
+                  <p className="" style={{color:"#00205e"}}>
+                  {/* text-white */}
                     We are ready to provide you with a specialized demo for free
                     to help you understand how our product can help you grow
                     your business.
@@ -49,7 +50,7 @@ const SupportOne = ({ className }) => {
                 </div>
                 <div className="form-block-banner mw-60 m-auto mt-5">
                   <Link href="/request-demo">
-                    <a className="btn btn-primary" style={{backgroundColor:"#3fa9f5"}}>Get a Demo</a>
+                    <a className="btn btn-primary" style={{backgroundColor:"#00205e"}}>Get a Demo</a>
                   </Link>
                 </div>
               </div>

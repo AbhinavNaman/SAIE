@@ -15,10 +15,10 @@ export default function WorkProcessFive() {
         <div className="row justify-content-center">
           <div className="col-lg-12">
             <div className="text-center">
-              <div className="text-white mb-3 h3">
+              <div className=" mb-3 h3" style={{color:"#00205e"}}>
                 Our Cutting-Edge Data And AI Strategy
               </div>
-              <p className="text-off-white">
+              <p className="text-off-white" style={{color:"#00205e"}}>
                 At SMART AI FOR ENTERPRISE INC, we are at the forefront of driving
                 innovation and excellence through our comprehensive Data and AI
                 strategy. We believe in harnessing the power of advanced data

@@ -10,11 +10,11 @@ const SingleServicePromo = () => {
         <div className="row justify-content-center">
           <div className="col-md-10 col-lg-6">
             <div className="section-heading text-center">
-              <div className="text-white mb-3 h3">
+              <div className=" mb-3 h3" style={{color:"#00205e"}}>
                 Join SMART AI FOR ENTERPRISE INC in leading the evolution of
                 Business operations.
               </div>
-              <p>
+              <p style={{color:"#00205e"}}>
                 Our team of experts is ready to help you take your business to
                 the next level. Contact us today to learn more about our
                 services and how we can help you achieve your business goals.

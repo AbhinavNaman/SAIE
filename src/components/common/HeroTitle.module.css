@@ -1,0 +1,22 @@
+@keyframes wipeIn {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.type-animation-container {
+  overflow: hidden;
+  white-space: nowrap; /* Ensure text does not wrap */
+}
+
+.react-type-animation__text {
+  display: inline-block;
+  animation: wipeIn 0.5s ease-out forwards;
+  animation-delay: 0.5s; /* Adjust delay to control when wiping animation starts */
+  width: 100%; /* Ensure animation covers the entire container */
+}

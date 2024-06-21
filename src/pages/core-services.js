@@ -24,7 +24,7 @@ const Integrations = () => {
           <div className="row justify-content-center">
             <div className="col-md-10 col-lg-6">
               <div className="section-heading text-center">
-                <h5 className="text-white">
+                <h5 className="" style={{color:"#00205e"}}>
                   Discover The Core Of Transformation With Our Comprehensive
                   Services
                 </h5>
