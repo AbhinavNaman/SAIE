@@ -90,7 +90,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <Link href="/">
                   <a
                     style={{
-                      color: router.pathname === "/" ? "#3fa9f5" : "black",
+                      color: router.pathname === "/" ? "#3fea2c" : "black",
                     }}
                     className="nav-link"
                   >
@@ -103,7 +103,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   <a
                     style={{
                       color:
-                        router.pathname === "/core-services" ? "#3fa9f5" : "black",
+                        router.pathname === "/core-services" ? "#3fea2c" : "black",
                     }}
                     className="nav-link"
                   >
@@ -115,7 +115,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <Link href="/use-cases">
                   <a
                     style={{
-                      color: router.pathname === "/use-cases" ? "#3fa9f5" : "black",
+                      color: router.pathname === "/use-cases" ? "#3fea2c" : "black",
                     }}
                     className="nav-link"
                   >
@@ -127,7 +127,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 <Link href="/blogs">
                   <a
                     style={{
-                      color: router.pathname === "/blogs" ? "#3fa9f5" : "black",
+                      color: router.pathname === "/blogs" ? "#3fea2c" : "black",
                     }}
                     className="nav-link"
                   >
@@ -141,7 +141,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                     style={{
                       color:
                         router.pathname === "/company-overview"
-                          ? "#3fa9f5"
+                          ? "#3fea2c"
                           : "black",
                     }}
                     className="nav-link"
