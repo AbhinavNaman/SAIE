@@ -1434,7 +1434,7 @@ const brandName = [
     brand: "Oracle",
   },
   {
-    image: "/companylogos/ibm.webp",
+    image: "/companylogos/ibm.jpg",
     brand: "IBM",
   },
   

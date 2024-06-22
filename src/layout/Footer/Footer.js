@@ -22,7 +22,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
     try {
       setLoading(true); // Show loader
       // Send a POST request to your email subscription endpoint
-      const response = await fetch(subscribe, {
+      const response = await fetch('/api/proxy', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

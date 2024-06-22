@@ -71,7 +71,7 @@ const ServiceForm = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(formDataToSend),
       });
 
       setSuccess("Project Request Sent successfully");

@@ -40,7 +40,7 @@ const IntegrationTwo = ({ dark, bgWhite }) => {
                   <li key={i + 1}>
                     <div className="single-integration">
                       <Image
-                        width={100}
+                        width={250}
                         height={100}
                         src={brand.image}
                         alt="integration"

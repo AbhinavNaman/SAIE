@@ -61,9 +61,9 @@ const SingleServiceFeature = () => {
           <div className="col-lg-6 order-lg-1">
             <div className="pr-lg-4 mt-md-4 position-relative">
               <div className="mx-lg-auto text-center rounded-custom overflow-hidden ">
-                <Image
-                  width={1000}
-                  height={1000}
+                <img
+                  // width={1000}
+                  // height={1000}
                   src="/about-img-1.JPG"
                   alt=""
                   className="shadow-sm rounded-custom"
