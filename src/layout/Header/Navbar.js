@@ -74,6 +74,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
             className="navbar-toggler-custom position-absolute right-0 border-0"
             id="#offcanvasWithBackdrop"
             role="button"
+            style={{backgroundColor:"#3fa9f5"}}
           >
             <span
               data-bs-toggle="offcanvas"
@@ -91,6 +92,13 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   <a
                     style={{
                       color: router.pathname === "/" ? "#3fea2c" : "black",
+                      backgroundColor: router.pathname === "/" ? "white" : "",
+                      padding:"5px",
+                      borderRadius:"10px",
+                      marginRight:"10px",
+                      marginLeft:"10px",
+                      paddingLeft:"10px",
+                      paddingRight:"10px",
                     }}
                     className="nav-link"
                   >
@@ -104,6 +112,13 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                     style={{
                       color:
                         router.pathname === "/core-services" ? "#3fea2c" : "black",
+                        backgroundColor: router.pathname === "/core-services" ? "white" : "",
+                      padding:"5px",
+                      borderRadius:"10px",
+                      marginRight:"10px",
+                      marginLeft:"10px",
+                      paddingLeft:"10px",
+                      paddingRight:"10px",
                     }}
                     className="nav-link"
                   >
@@ -116,6 +131,13 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   <a
                     style={{
                       color: router.pathname === "/use-cases" ? "#3fea2c" : "black",
+                      backgroundColor: router.pathname === "/use-cases" ? "white" : "",
+                      padding:"5px",
+                      borderRadius:"10px",
+                      marginRight:"10px",
+                      marginLeft:"10px",
+                      paddingLeft:"10px",
+                      paddingRight:"10px",
                     }}
                     className="nav-link"
                   >
@@ -128,6 +150,13 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                   <a
                     style={{
                       color: router.pathname === "/blogs" ? "#3fea2c" : "black",
+                      backgroundColor: router.pathname === "/blogs" ? "white" : "",
+                      padding:"5px",
+                      borderRadius:"10px",
+                      marginRight:"10px",
+                      marginLeft:"10px",
+                      paddingLeft:"10px",
+                      paddingRight:"10px",
                     }}
                     className="nav-link"
                   >
@@ -143,6 +172,14 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                         router.pathname === "/company-overview"
                           ? "#3fea2c"
                           : "black",
+                          backgroundColor: router.pathname === "/company-overview" ? "white" : "",
+                      padding:"5px",
+                      borderRadius:"10px",
+                      marginRight:"10px",
+                      marginLeft:"10px",
+                      paddingLeft:"10px",
+                      paddingRight:"10px",
+                      
                     }}
                     className="nav-link"
                   >
@@ -162,7 +199,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                     ? "ins-btn ins-primary-btn"
                     : "btn btn-primary header-button"
                 }
-                style={{background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}
+                style={{background: "linear-gradient(115deg, #3fea2c, #31c47f)", border: "1px solid black"}}
               >
                 Book a Demo
               </a>

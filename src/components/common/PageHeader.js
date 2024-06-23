@@ -41,14 +41,14 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
               </div>
             </div>
 
-            <div className="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
+            {/* <div className="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div> */}
           </div>
         </section>
       ) : (
         <section
           className="blog-hero-spc-padding page-header position-relative overflow-hidden ptb-60"
           style={{
-            background: "url('/page-header-bg.svg')no-repeat bottom left",
+            // background: "url('/page-header-bg.svg')no-repeat bottom left",
             backgroundColor:"white"
           }}
         >
@@ -123,7 +123,7 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
             ) : (
               ""
             )}
-            <div className="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div>
+            {/* <div className="bg-circle rounded-circle circle-shape-3 position-absolute bg-dark-light right-5"></div> */}
           </div>
         </section>
       )}

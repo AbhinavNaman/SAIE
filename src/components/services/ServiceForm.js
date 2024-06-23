@@ -63,6 +63,7 @@ const ServiceForm = () => {
       timeSlot: formData.timeSlot,
     };
     setLoading(true);
+    console.log(formDataToSend)
     // Proceed with form submission
     try {
       // Send a POST request to your API endpoint
@@ -71,7 +72,8 @@ const ServiceForm = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formDataToSend),
+        // body: JSON.stringify(formDataToSend),
+        body: JSON.stringify(formData),
       });
 
       setSuccess("Project Request Sent successfully");

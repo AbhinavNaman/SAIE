@@ -1,4 +1,5 @@
-export const url = "https://api.saib.ai";
+// export const url = "https://api.saib.ai";
+export const url = "http://localhost:8000";
 export const middleware = "/api";
 export const baseUrl = `${url}${middleware}`;
 export const fetchBlogs = `${baseUrl}/posts`;

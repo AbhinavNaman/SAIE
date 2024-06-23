@@ -60,7 +60,7 @@ const CareerRequestForm = ({ job }) => {
   return (
     <>
       <div className="col-xl-5 col-lg-7 col-md-12 order-0 order-lg-1 career-wrapper">
-        <div className="career-apply-section p-5 bg-white shadow rounded-custom mt-4">
+        <div className="career-apply-section p-5 bg-white shadow rounded-custom">
           <h3 className="fw-medium text-primary">
             Fill out the form and we will be in touch as soon as possible.
           </h3>

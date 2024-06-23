@@ -15,11 +15,12 @@ const IntegrationTwo = ({ dark, bgWhite }) => {
       } ptb-60 ${bgWhite ? "bg-white" : ""} */}
       <div className="container">
         <div className="row align-items-center justify-content-lg-between">
-          <div className="col-lg-6 col-md-12">
+          {/* <div className="col-lg-6 col-md-12"> */}
+          <div className="">
             <SectionTitle
               subtitle="Our Clients and Partners"
               // title="We work with industry leading brands/companies"
-              description="We have a team of dedicated professionals who are committed to delivering the best results for our clients. Our team is a mix of experienced professionals and young talent, who are passionate about what they do."
+              description="Our clients and partners are the cornerstone of our success. We are privileged to collaborate with a diverse array of organizations, from dynamic startups to established industry leaders. Our partnerships are built on a foundation of trust, innovation, and mutual growth. By understanding their unique needs and challenges, we deliver tailored solutions that drive tangible results. We are committed to fostering long-term relationships that go beyond business transactions, creating a network of collaboration and support that propels all parties towards shared success."
               leftAlign
               // textWhite
             />
