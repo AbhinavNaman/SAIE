@@ -18,6 +18,27 @@ const HeroSectionFourth = ({ bgDark }) => {
     setIsClient(true);
   }, []);
 
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    // Function to check the screen width and set the state
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 770);
+    };
+
+    // Add event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Initial check
+    handleResize();
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
   return (
     <section
       className={`hero-section ptb-60 ${bgDark ? "bg-dark" : "bg-white"}`}
@@ -27,10 +48,11 @@ const HeroSectionFourth = ({ bgDark }) => {
           // backgroundColor:"white",
       }}
     >
-      <div className="container hero-spc-padding">
+
+      <div className={`container ${isMobile ? '': 'hero-spc-padding'}`} style={{marginTop:"55px"}}>
         <div className="row  justify-content-lg-between">
         {/* align-items-center */}
-          <div className="col-xl-5 col-lg-5 " style={{paddingTop:"100px"}}>
+          <div className="col-xl-5 col-lg-5 " style={{paddingTop:"20px"}}>
             <div className="hero-content-wrap mt text-center text-xl-start text-lg-start">
               <HeroTitle
                 title="Empowering Enterprise Businesses Through Domain Specific Innovative AI Services"

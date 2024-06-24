@@ -1743,9 +1743,20 @@ const manufacturingExcellenceProposition = [
   },
 ];
 
+
+
 const smartMarketingChallenges = [
   {
-    data: "Lack of market growth insights",
+    data: "Changing Consumer Behaviors",
+  },
+  {
+    data: "Personalization at Scale",
+  },
+  {
+    data: "Content Saturation",
+  },
+  {
+    data: "Adapting to Regulatory Changes",
   },
 ];
 const smartMarketingProposition = [
@@ -1802,7 +1813,16 @@ const smartSourcingProposition = [
 
 const pricingAndProfitabilityChallenges = [
   {
-    data: "Pricing and profit optimization issues",
+    data: "Competitive Dynamics",
+  },
+  {
+    data: "Dynamic Pricing Implementation",
+  },
+  {
+    data: "Customer Sensitivity and Segmentation",
+  },
+  {
+    data: "Regulatory Compliance and Transparency",
   },
 ];
 const pricingAndProfitabilityProposition = [

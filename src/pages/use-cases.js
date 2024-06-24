@@ -103,7 +103,7 @@ const Integrations = () => {
           </div>
         }
         propositions={
-          <div>
+          <div style={{color:"black"}}>
             {supplyChainResilienceDataCurrentPropositions.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
@@ -123,7 +123,7 @@ const Integrations = () => {
           </div>
         }
         propositions={
-          <div>
+          <div style={{color:"black"}}>
             {smartChallengesPropositions.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
@@ -144,14 +144,14 @@ const Integrations = () => {
         type="reverse"
         image={"/use-cases/12.jpeg"}
         challenges={
-          <div>
+          <div style={{color:"black"}}>
             {smartMarketingChallenges.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
           </div>
         }
         propositions={
-          <div>
+          <div style={{color:"black"}}>
             {smartMarketingProposition.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
@@ -165,14 +165,14 @@ const Integrations = () => {
         desc="Revolutionize your sales processes with our AI-powered analytics. We streamline your sales pipeline, enhance lead generation, and enable your sales team to close deals faster and more efficiently than ever before."
         type="normal"
         challenges={
-          <div>
+          <div style={{color:"black"}}>
             {smartSalesOperationChallenges.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
           </div>
         }
         propositions={
-          <div>
+          <div style={{color:"black"}}>
             {smartSalesOperationProposition.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
@@ -187,14 +187,14 @@ const Integrations = () => {
         type="reverse"
         image={"/use-cases/image-2.webp"}
         challenges={
-          <div>
+          <div style={{color:"black"}}>
             {pricingAndProfitabilityChallenges.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
           </div>
         }
         propositions={
-          <div>
+          <div style={{color:"black"}}>
             {pricingAndProfitabilityProposition.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
@@ -209,14 +209,14 @@ const Integrations = () => {
         image={"/use-cases/image-3.webp"}
         icon={<GiProfit />}
         challenges={
-          <div>
+          <div style={{color:"black"}}>
             {pricingAndProfitabilityChallenges.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
           </div>
         }
         propositions={
-          <div>
+          <div style={{color:"black"}}>
             {pricingAndProfitabilityProposition.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
