@@ -1707,19 +1707,24 @@ const insuranceGallery = [
   },
 ];
 
+
+
+
+
+
 const manufacturingExcellenceChallenges = [
   {
-    data: "Reliability issues​",
+    data: "Supply Chain Disruptions​",
   },
   {
-    data: "Quality control problems​",
+    data: "Labor Shortages and Skill Gaps​",
   },
   {
-    data: "Inefficient production planning​",
+    data: "Technological Integration​",
   },
 
   {
-    data: "Excess inventory of direct and indirect materials​",
+    data: "Quality and Compliance​",
   },
 ];
 const manufacturingExcellenceProposition = [

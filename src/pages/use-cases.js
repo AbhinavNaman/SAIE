@@ -74,7 +74,7 @@ const Integrations = () => {
         type="reverse"
         image={"/use-cases/2.jpeg"}
         challenges={
-          <div>
+          <div style={{color:"black"}}>
             {manufacturingExcellenceChallenges.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
@@ -96,7 +96,7 @@ const Integrations = () => {
         type="normal"
         image={"/use-cases/3.webp"}
         challenges={
-          <div>
+          <div style={{color:"black"}}>
             {supplyChainResilienceDataCurrentChallenges.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}
@@ -116,7 +116,7 @@ const Integrations = () => {
         desc="We empower your workforce with tools and insights to boost productivity. Our Smart Talent Acquisition uses advanced analytics to align your talent strategy with business priorities, fostering a more engaged and efficient workforce."
         type="reverse"
         challenges={
-          <div>
+          <div style={{color:"black"}}>
             {SmartChallengesChallenges.map((c, i) => (
               <li key={i + 1}>{c.data}</li>
             ))}

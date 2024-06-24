@@ -7,7 +7,7 @@ const SingleServiceRegister = () => {
     <section
       className="sign-up-in-section  ptb-60 position-relative overflow-hidden"
       style={{
-        background: "url('/page-header-bg.svg')no-repeat bottom right",
+        // background: "url('/page-header-bg.svg')no-repeat bottom right",
       }}
     >
       <div className="container">
