@@ -26,6 +26,8 @@ export default function Page() {
     fetchData();
   }, []);
 
+  console.log("blogData:",blogData);
+
   return (
     <Layout title="Blog" desc="This is blog page">
       <Navbar />

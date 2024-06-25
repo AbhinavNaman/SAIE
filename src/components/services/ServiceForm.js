@@ -11,7 +11,7 @@ const ServiceForm = () => {
     labelStyle,
     timezones,
   });
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     name: "",
     email: "",
     country: "",
@@ -21,8 +21,9 @@ const ServiceForm = () => {
     timeZone: "",
     timeSlot: "",
     marketingEmails: false, // Added state for marketing emails
-  });
+  };
 
+  const [formData, setFormData] = useState(initialFormData);
   const [touchedFields, setTouchedFields] = useState({
     name: false,
     email: false,
@@ -63,7 +64,7 @@ const ServiceForm = () => {
       timeSlot: formData.timeSlot,
     };
     setLoading(true);
-    console.log(formDataToSend)
+    console.log(formDataToSend);
     // Proceed with form submission
     try {
       // Send a POST request to your API endpoint
@@ -76,26 +77,29 @@ const ServiceForm = () => {
         body: JSON.stringify(formData),
       });
 
-      setSuccess("Project Request Sent successfully");
       if (!response.ok) {
         const responseBody = await response.json();
         alert(
           `Form data error!\nResponse: ${JSON.stringify(responseBody, null, 2)}`
         );
+      } else {
+        const responseBody = await response.json();
+        setSuccess("Project Request Sent successfully");
+        // Reset the form fields
+        setFormData(initialFormData);
+        setTouchedFields({
+          name: false,
+          email: false,
+          country: false,
+          query: false,
+          mobileNumber: false,
+          date: false,
+          timeZone: false,
+          timeSlot: false,
+        });
+        setLoading(false);
+        console.log("Form submitted successfully:", responseBody);
       }
-      const responseBody = await response.json();
-
-      // Display a success message
-      // alert(
-      //   `Form data submitted successfully!\nResponse: ${JSON.stringify(
-      //     responseBody,
-      //     null,
-      //     2
-      //   )}`
-      // );
-      setLoading(false);
-      setSuccess("Project Request Sent successfully");
-      // alert("Demo Request Sent Successfully");
     } catch (error) {
       setLoading(false);
       console.log("Error submitting form data:", error.message);
@@ -484,16 +488,10 @@ const ServiceForm = () => {
                       name="timeZone"
                       value={formData.timeZone}
                       onChange={handleChange}
-                      // onChange={(e) =>
-                      //   onChange(parseTimezone(e.currentTarget.value))
-                      // }
-                      // onChange={(e) =>
-                      //   setTimezone(parseTimezone(e.currentTarget.value))
-                      // }
                       required
                     >
                       {options.map((option) => (
-                        <option value={option.value}>{option.label}</option>
+                        <option key={option.value} value={option.value}>{option.label}</option>
                       ))}
                     </select>
                   </div>
@@ -533,7 +531,9 @@ const ServiceForm = () => {
                   <input
                     className="form-check-input"
                     type="checkbox"
-                    value=""
+                    name="marketingEmails"
+                    value={formData.marketingEmails}
+                    onChange={handleChange}
                     id="flexCheckChecked"
                   />
                   <label
