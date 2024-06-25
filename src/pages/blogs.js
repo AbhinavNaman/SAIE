@@ -26,7 +26,15 @@ export default function Page() {
     fetchData();
   }, []);
 
-  console.log("blogData:",blogData);
+  console.log("blogData:", blogData);
+
+  const imageUrl = [
+    "https://th.bing.com/th/id/OIP.0-dYGJDq118PJ0QaNKws7gHaEK?rs=1&pid=ImgDetMain",
+    "https://suryacipta.com/wp-content/uploads/2023/03/2E46D5D1-B091-4A96-82E5-FFC38DA8A16E-1024x587.jpeg",
+    "https://www.royalhaskoningdhv.com/-/jssmedia/images/services/maritime/smart-asset-management-h.jpg?mw=1200",
+    "https://virtuzone.com/wp-content/uploads/2023/06/profitable-growth-6-1280x845.jpg",
+    "https://th.bing.com/th/id/OIP.d0v03UPDV7gd8fUdHMc1AwAAAA?rs=1&pid=ImgDetMain",
+  ];
 
   return (
     <Layout title="Blog" desc="This is blog page">
@@ -49,7 +57,8 @@ export default function Page() {
                       <img
                         width={414}
                         height={224}
-                        src={blog.image}
+                        // src={blog.image}
+                        src={imageUrl[i]}
                         alt="article"
                       />
                     </div>
