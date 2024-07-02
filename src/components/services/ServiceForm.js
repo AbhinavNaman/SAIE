@@ -331,11 +331,11 @@ const ServiceForm = () => {
                 <option value="KZ">Kazakhstan</option>
                 <option value="KE">Kenya</option>
                 <option value="KI">Kiribati</option>
-                <option value="KP">Korea, Democratic People's Republic of</option>
+                <option value="KP">Korea, Democratic People s Republic of</option>
                 <option value="KR">Korea, Republic of</option>
                 <option value="KW">Kuwait</option>
                 <option value="KG">Kyrgyzstan</option>
-                <option value="LA">Lao People's Democratic Republic</option>
+                <option value="LA">Lao People&apos;s Democratic Republic</option>
                 <option value="LV">Latvia</option>
                 <option value="LB">Lebanon</option>
                 <option value="LS">Lesotho</option>
@@ -464,8 +464,8 @@ const ServiceForm = () => {
                 <option value="ZM">Zambia</option>
                 <option value="ZW">Zimbabwe</option>
               </select>
+              {errors.country && <div className="text-danger">{errors.country}</div>}
             </div>
-              {errors.country && <div className="text-danger" >{errors.country}</div>}
           </div>
           <div className="col-12">
             <div className="input-group mb-3">
@@ -479,8 +479,8 @@ const ServiceForm = () => {
                 onBlur={handleBlur}
                 required
               ></textarea>
-            </div>
               {errors.query && <div className="text-danger">{errors.query}</div>}
+            </div>
           </div>
           <div className="col-12">
             <div className="input-group mb-3">
@@ -495,8 +495,8 @@ const ServiceForm = () => {
                 onBlur={handleBlur}
                 required
               />
-            </div>
               {errors.date && <div className="text-danger">{errors.date}</div>}
+            </div>
           </div>
           <div className="row">
             <div className="col-sm-6">
@@ -515,8 +515,8 @@ const ServiceForm = () => {
                     <option key={option.value} value={option.value}>{option.label}</option>
                   ))}
                 </select>
-              </div>
                 {errors.timeZone && <div className="text-danger">{errors.timeZone}</div>}
+              </div>
             </div>
             <div className="col-sm-6">
               <div className="input-group mb-3">
@@ -543,8 +543,8 @@ const ServiceForm = () => {
                     );
                   })}
                 </select>
-              </div>
                 {errors.timeSlot && <div className="text-danger">{errors.timeSlot}</div>}
+              </div>
             </div>
           </div>
           <div className="col-12">
