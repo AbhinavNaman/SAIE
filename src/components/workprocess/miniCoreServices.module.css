@@ -1,0 +1,29 @@
+
+  /* For Webkit browsers (Chrome, Safari, etc.) */
+.description {
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .description::-webkit-scrollbar {
+    width: 0; /* Remove scrollbar space */
+  }
+  
+  .description::-webkit-scrollbar-track {
+    background: transparent; /* Optional: Make the track transparent */
+  }
+  
+  .description::-webkit-scrollbar-thumb {
+    background: transparent; /* Optional: Make the thumb transparent */
+  }
+  
+  /* For Firefox */
+  .description {
+    scrollbar-width: none; /* Hide scrollbar */
+    -ms-overflow-style: none; /* IE 10+ */
+  }
+  
+  .description::-webkit-scrollbar-thumb:hover {
+    background: transparent;
+  }
+  

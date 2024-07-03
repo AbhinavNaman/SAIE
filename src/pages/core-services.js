@@ -61,8 +61,9 @@ const Integrations = () => {
       />
       <UseCaseSectionOne
         id="data-foundation"
-        title="Data Foundation"
-        desc="Our robust Data Foundation services ensure the integrity and security of your data assets. With comprehensive governance, quality control, integration, metadata management, and data modeling, we lay the groundwork for a data-driven organization."
+        title="Smart Data Foundation"
+        desc="Our robust Data Foundation services ensure the integrity and security of your data assets. With comprehensive governance, quality control, integration, metadata management, and data modeling, we lay the groundwork for a data-driven organization. Smart Data Foundation capabilities automate data profiling, cleansing, lineage detection, data pipeline creation, knowledge graph creation by inspecting data etc. using AI. This helps enterprises accelerate building robust data foundation quickly and cost effectively.
+"
         type="reverse"
         image={"/core-services/4.webp"}
         icon={<MdDataUsage />}
@@ -70,7 +71,8 @@ const Integrations = () => {
       <UseCaseSectionOne
         id="smart-ai-platform"
         title="Smart AI Platform"
-        desc="Partner with SMART AI FOR ENTERPRISE INC. to build a solid foundation for your digital endeavors. Our core services are the bedrock upon which your business can flourish in the age of intelligence and interconnectivity."
+        desc=" Our Smart AI Platform is built on next generation Data and AI practices. The platform has tools needed Data Management, Analytics, Analytical AI and Generative AI, Visualization capabilities. It is cloud agnostic supporting Microsoft, AW, GCP, OCP etc. as well as LLM agnostic supporting any LLM of client’s choice.
+"
         type="normal"
         image={"/core-services/5.webp"}
         icon={<GiBrain />}

@@ -13,7 +13,7 @@ const ContactUs = () => {
       <Navbar classOption="navbar-light" />
       <PageHeader
         title="Company Overview"
-        desc="Seamlessly actualize client-based users after out-of-the-box value data through frictionless expertise. Proactively coordinate quality quality vectors vis-a-vis supply chains. Quickly engage client-centric web services."
+        desc=" We excel at translating client needs into actionable solutions, leveraging data-driven strategies to deliver value from the outset. Our expertise spans the business enterprise where we deliver Artificial Intelligence solutions focused on automating and optimizing processes, driving insights from data and analytics, resource optimization and enhancing customer service."
       />
       <ContactCard />
       {/* <div className="card px-10 mx-10 bg-dark">
