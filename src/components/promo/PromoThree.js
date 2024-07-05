@@ -48,7 +48,7 @@ const PromoThree = ({ hasBg }) => {
             <div className="col-md-10 col-lg-6">
               <SectionTitle
                 title="Key elements shaping our engineering strategy"
-                description="We Bring Strong Industry, Functional, Data, AI And Technology Services"
+                description="We bring strong industry, functional, data, AI And technology services"
                 centerAlign
               />
             </div>

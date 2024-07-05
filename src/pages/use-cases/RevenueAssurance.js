@@ -21,6 +21,7 @@ const RevenueAssurance = () => {
 
 
       <UseCaseSectionOne
+      desc="Revenue assurance involves processes and tools that ensure all possible revenue is correctly captured and billed, minimizing revenue leakage. Data monetization refers to the strategic use of data to generate revenue, either by selling data or by leveraging it to improve products and services. Companies can gain valuable insights from data, optimize operations, and create new revenue streams, ultimately enhancing profitability."
         type="normal"
         image={"/use-cases/16.jpeg"}
         icon={<IoMdAnalytics />}

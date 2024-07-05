@@ -24,37 +24,37 @@ const ServiceOne = ({ bgDark }) => {
       icon: <HiOutlineUsers className=" text-danger" />,
       title: "Smart Sourcing",
       description: "We help identify, evaluate, and engage with suppliers efficiently.",
-      link: "/use-cases#smart-sourcing",
+      link: "/use-cases/smartSourcing",
     },
     {
       icon: <BsTools className=" text-dark" />,
       title: "Manufacturing Excellence",
       description: "Integrating AI with lean principles enhances manufacturing excellence, optimizing speed and quality.",
-      link: "/use-cases#manufacturing-excellence",
+      link: "/use-cases/manufacturingExcellence",
     },
     {
       icon: <HiOutlineCog className=" text-warning" />,
       title: "Supply Chain Resilience",
       description: "Amid uncertainty, our Supply Chain Resilience solutions offer agility, robustness, and strategic foresight.",
-      link: "/use-cases#supply-chain-resilience",
+      link: "/use-cases/supplyChainResilience",
     },
     {
       icon: <GrAnnounce className=" text-warning" />,
       title: "Smart Marketing",
       description: "Utilize data-driven insights for compelling marketing narratives. Smart Marketing optimizes campaigns for maximum engagement and ROI.",
-      link: "/use-cases#smart-marketing",
+      link: "/use-cases/smartMarketing",
     },
     {
       icon: <IoGitCompareOutline className=" text-dark" />,
       title: "Smart Sales Operations",
       description: "Transform sales processes with AI-powered analytics. Streamline pipelines, enhance lead generation, and close deals efficiently.",
-      link: "/use-cases#smart-sales-operations",
+      link: "/use-cases/smartSalesOperations",
     },
     {
       icon: <FaLightbulb className=" text-success" />,
       title: "Sustainability Analytics",
       description: "Empower sustainability tracking and improvement with advanced analytics. Make informed decisions aligned with green goals.",
-      link: "/use-cases#sustainability-analytics",
+      link: "/use-cases/sustainabilityAnalytics",
     },
   ];
 

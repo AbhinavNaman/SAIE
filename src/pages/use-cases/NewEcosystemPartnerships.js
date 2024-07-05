@@ -21,6 +21,7 @@ const NewEcosystemPartnerships = () => {
 
 
       <UseCaseSectionOne
+      desc="Forming new ecosystem partnerships involves collaborating with other businesses, organizations, and stakeholders to create a synergistic environment. These partnerships enable companies to access new markets, share resources, and co-create value. By leveraging the strengths of each partner, businesses can innovate more effectively, enhance their offerings, and achieve competitive advantages in the marketplace."
         type="normal"
         image={"/use-cases/9.jpeg"}
         icon={<MdFiberSmartRecord />}

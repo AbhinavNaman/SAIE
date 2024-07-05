@@ -60,7 +60,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/ManufacturingExcellence">
+      <Link href="/use-cases/manufacturingExcellence">
         <a>
           <UseCaseSectionOne
             title="Manufacturing Excellence"

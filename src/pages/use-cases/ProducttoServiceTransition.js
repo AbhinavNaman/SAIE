@@ -20,6 +20,7 @@ const ProducttoServiceTransition = () => {
 
 
       <UseCaseSectionOne
+      desc="The shift from selling products to offering services involves transforming business models to focus on providing ongoing value to customers through services. This transition often includes adopting subscription models, offering maintenance and support, and developing service-oriented solutions. It allows companies to build stronger customer relationships, generate recurring revenue, and adapt more flexibly to changing market demands."
         type="normal"
         image={"/use-cases/image-4.webp"}
         icon={<RiProductHuntLine />}

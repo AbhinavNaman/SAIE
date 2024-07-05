@@ -20,6 +20,7 @@ const SmartFinanceOperations = () => {
 
 
       <UseCaseSectionOne
+      desc="Smart Finance Operations leverage advanced technologies such as artificial intelligence, machine learning, and robotic process automation to enhance financial processes. These operations streamline tasks like accounts payable and receivable, financial planning, and analysis, reducing manual effort and errors. By integrating real-time data and predictive analytics, organizations can make more informed financial decisions, improve efficiency, and achieve better financial control and transparency."
         type="normal"
         image={"/use-cases/5.jpeg"}
         icon={<GiMoneyStack />}

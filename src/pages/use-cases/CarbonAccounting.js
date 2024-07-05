@@ -20,6 +20,7 @@ const CarbonAccounting = () => {
 
 
       <UseCaseSectionOne
+      desc="Carbon accounting is the process of measuring and reporting an organization’s carbon emissions. It involves tracking the sources of greenhouse gas emissions, quantifying them, and identifying opportunities for reduction. Accurate carbon accounting is essential for companies aiming to reduce their carbon footprint, comply with environmental regulations, and achieve sustainability targets. It also provides transparency and accountability, demonstrating a commitment to environmental stewardship."
         type="normal"
         image={"/use-cases/11.jpeg"}
         icon={<BiSolidReport />}

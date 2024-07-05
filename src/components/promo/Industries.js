@@ -59,7 +59,7 @@ const Industries = ({ hasBg }) => {
           <div className="row justify-content-center">
             <div className="col-md-10 col-lg-6">
               <SectionTitle
-                title="Industries We Serve"
+                title="Industries we serve"
                 description="We provide the best solution for your business"
                 centerAlign
               />

@@ -19,6 +19,7 @@ const sustainabilityAnalytics = () => {
 
 
       <UseCaseSectionOne
+      desc="Sustainability analytics involves the use of data and analytical tools to measure and manage an organization's environmental, social, and economic impacts. By analyzing sustainability metrics, companies can identify areas for improvement, track progress toward sustainability goals, and make data-driven decisions to enhance their sustainability performance. This approach helps businesses reduce their environmental footprint, comply with regulations, and meet stakeholder expectations."
         type="normal"
         image={"/use-cases/10.jpeg"}
         icon={<FaLightbulb />}

@@ -22,6 +22,7 @@ const DigitalProductsandServices = () => {
 
 
       <UseCaseSectionOne
+      desc="Digital products and services encompass a wide range of offerings delivered through digital channels. These include software applications, digital content, online services, and platforms. They are characterized by their ability to scale quickly, be updated frequently, and provide personalized experiences. Digital products and services are essential in today's market, driving innovation and enabling businesses to meet evolving customer needs."
         type="normal"
         image={"/use-cases/8.jpeg"}
         icon={<GiDigitalTrace />}
