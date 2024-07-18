@@ -28,7 +28,7 @@ const ContactUs = () => {
         ></iframe>
       </div> */}
 
-      <CareerPromo />
+      {/* <CareerPromo /> */}
       {/* <ContactForm /> */}
       <Footer />
     </Layout>
