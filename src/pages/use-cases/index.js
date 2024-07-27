@@ -50,7 +50,7 @@ const Integrations = () => {
         desc="At SMART AI FOR ENTERPRISE INC. we redefine operational efficiency across every facet of your business. Our tailored solutions are designed to elevate your operational capabilities to new heights."
       />
 
-      <Link href="/use-cases/smartSourcing">
+      <Link href="/use-cases/smart-sourcing">
         <a>
           <UseCaseSectionOne
             title="Smart Sourcing"
@@ -60,7 +60,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/manufacturingExcellence">
+      <Link href="/use-cases/manufacturing-excellence">
         <a>
           <UseCaseSectionOne
             title="Manufacturing Excellence"
@@ -71,7 +71,7 @@ const Integrations = () => {
         </a>
       </Link>
 
-      <Link href="/use-cases/supplyChainResilience">
+      <Link href="/use-cases/supply-chain-resilience">
         <a>
           <UseCaseSectionOne
             title="Supply Chain Resilience"
@@ -81,7 +81,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/SmartTalentAcquisition">
+      <Link href="/use-cases/smart-talent-acquisition">
         <a>
           <UseCaseSectionOne
             title="Smart Talent Acquisition"
@@ -96,7 +96,7 @@ const Integrations = () => {
         title="Advanced Business Solutions"
         desc="At SMART AI FOR ENTERPRISE INC. our mission is to fuel your growth trajectory with smart, scalable, and sustainable strategies. Dive into the new era of profitability with our suite of services"
       />
-      <Link href="/use-cases/smartMarketing">
+      <Link href="/use-cases/smart-marketing">
         <a>
           <UseCaseSectionOne
             title="Smart Marketing"
@@ -106,7 +106,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/smartSalesOperations">
+      <Link href="/use-cases/smart-sales-operations">
         <a>
           <UseCaseSectionOne
             id="smart-sales-operations"
@@ -117,7 +117,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/PricingOptimization">
+      <Link href="/use-cases/pricing-optimization">
         <a>
           <UseCaseSectionOne
             title="Pricing Optimization"
@@ -127,7 +127,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/ProfitabilityOptimization">
+      <Link href="/use-cases/profitability-optimization">
         <a>
           <UseCaseSectionOne
             title="Profitability Optimization"
@@ -142,7 +142,7 @@ const Integrations = () => {
         title="Innovative Business Models"
         desc="At SMART AI FOR ENTERPRISE INC we're not just adapting to the new economy; we're creating it. Our innovative strategies are tailored to help your business lead and thrive through transformation and monetization:"
       />
-      <Link href="/use-cases/SmartFinanceOperations">
+      <Link href="/use-cases/smart-finance-operations">
         <a>
           <UseCaseSectionOne
             title="Smart Finance Operations"
@@ -152,7 +152,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/RevenueAssurance">
+      <Link href="/use-cases/revenue-assurance">
         <a>
           <UseCaseSectionOne
             title="Revenue Assurance"
@@ -162,7 +162,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/DataMonetization">
+      <Link href="/use-cases/data-monetization">
         <a>
           <UseCaseSectionOne
             title="Data Monetization"
@@ -172,7 +172,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/ProducttoServiceTransition">
+      <Link href="/use-cases/product-to-service-transition">
         <a>
           <UseCaseSectionOne
             title="Product to Service Transition"
@@ -182,7 +182,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/DigitalProductsandServices">
+      <Link href="/use-cases/digital-products-and-services">
         <a>
           <UseCaseSectionOne
             title="Digital Products and Services"
@@ -197,7 +197,7 @@ const Integrations = () => {
         title="Sustainable Future Solutions"
         desc="Lead the way in sustainability With Our Esg Excellence Initiative. We help you reduce your environmental impact, increase your social responsibility, and create a better world for all."
       />
-      <Link href="/use-cases/NewEcosystemPartnerships">
+      <Link href="/use-cases/new-ecosystem-partnerships">
         <a>
           <UseCaseSectionOne
             title="New Ecosystem Partnerships"
@@ -207,7 +207,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/sustainabilityAnalytics">
+      <Link href="/use-cases/sustainability-analytics">
         <a>
           <UseCaseSectionOne
             title="Sustainability Analytics"
@@ -217,7 +217,7 @@ const Integrations = () => {
           />
         </a>
       </Link>
-      <Link href="/use-cases/CarbonAccounting">
+      <Link href="/use-cases/carbon-accounting">
         <a>
           <UseCaseSectionOne
             title="Carbon Accounting"
