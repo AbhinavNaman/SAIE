@@ -1778,7 +1778,7 @@ const smartSalesOperationProposition = [
     data: "Reduce revenue leakages by 5%-10%",
   },
   {
-    data: "mprove CSAT by 10%-20%",
+    data: "Improve CSAT by 10%-20%",
   },
 ];
 

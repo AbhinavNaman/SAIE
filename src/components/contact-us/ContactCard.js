@@ -1,7 +1,5 @@
-import CareerPromo from "@components/career/CareerPromo";
 import React from "react";
 import {
-  BsFillChatSquareTextFill,
   BsFillEnvelopeFill,
   BsTelephoneInbound,
 } from "react-icons/bs";
@@ -21,7 +19,7 @@ const ContactCard = () => {
                 <h4 style={{color:"#00205e"}}>Email Us</h4>
                 <p style={{color:"#00205e"}}>Contact us at</p>
                 <h6 className="" style={{color:"#00205e"}}>
-                {/* info@saib.ai */}
+                ronak@saie.ai
                 </h6>
               </div>
             </div>

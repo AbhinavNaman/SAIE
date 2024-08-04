@@ -5,7 +5,7 @@ import { useTimezoneSelect, allTimezones } from "react-timezone-select";
 const labelStyle = "original";
 const timezones = { ...allTimezones };
 
-const ServiceForm = () => {
+const ServiceForm = ({setReqSubmitted}) => {
   const { options } = useTimezoneSelect({ labelStyle, timezones });
 
   const initialFormData = {
@@ -13,7 +13,7 @@ const ServiceForm = () => {
     lname: "",
     email: "",
     company: "",
-    country: "",
+    country: "US",
     query: "",
     mobileNumber: "",
     date: "",
@@ -37,7 +37,7 @@ const ServiceForm = () => {
       case "email":
         return /\S+@\S+\.\S+/.test(value) ? "" : "Email is invalid.";
       case "mobileNumber":
-        return value && /^[0-9]+$/.test(value) ? "" : "Mobile number is invalid.";
+        return value === "" || /^[0-9]+$/.test(value) ? "" : "Mobile number is invalid.";
       case "company":
         return value ? "" : "Company name is required.";
       case "country":
@@ -99,7 +99,8 @@ const ServiceForm = () => {
         const responseBody = await response.json();
         alert(`Form data error!\nResponse: ${JSON.stringify(responseBody, null, 2)}`);
       } else {
-        const responseBody = await response.json();
+        // const responseBody = await response.json();
+        setReqSubmitted(true);
         setSuccess("Project Request Sent successfully");
         setFormData(initialFormData);
         setTouchedFields({});
@@ -112,7 +113,7 @@ const ServiceForm = () => {
   };
 
   return (
-    <div className="col-xl-5 col-lg-7 col-md-12 order-0 order-lg-1">
+    <div className="col-xl-5 col-lg-7 col-md-12 order-0 order-lg-1" >
       <div className="register-wrap p-5 bg-white shadow-lg border rounded-custom mt-4">
         <h3 className="fw-medium text-primary">
           Fill out the form and we will be in touch as soon as possible.
@@ -209,8 +210,8 @@ const ServiceForm = () => {
                 onBlur={handleBlur}
                 value={formData.country}
               >
-                <option value="" disabled="">
-                  Country
+                <option value="US">
+                  US
                 </option>
                 <option value="AF">Afghanistan</option>
                 <option value="AX">Åland Islands</option>
@@ -479,8 +480,8 @@ const ServiceForm = () => {
                 onBlur={handleBlur}
                 required
               ></textarea>
-              {errors.query && <div className="text-danger">{errors.query}</div>}
             </div>
+              {errors.query && <div className="text-danger">{errors.query}</div>}
           </div>
           <div className="col-12">
             <div className="input-group mb-3">

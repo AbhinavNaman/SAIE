@@ -15,7 +15,7 @@ const ServiceOne = ({ bgDark }) => {
 
   const baseStyle = { color: "black" };
   const hoverStyle = { background: "linear-gradient(115deg, #3fea2c, #31c47f)", color: "white" };
-  const hoverText = { color: "white" };
+  // const hoverText = { color: "white" };
 
   // style={{background: "linear-gradient(115deg, #3fea2c, #31c47f)"}}
 
@@ -24,37 +24,37 @@ const ServiceOne = ({ bgDark }) => {
       icon: <HiOutlineUsers className=" text-danger" />,
       title: "Smart Sourcing",
       description: "We help identify, evaluate, and engage with suppliers efficiently.",
-      link: "/use-cases/smartSourcing",
+      link: "/use-cases/smart-sourcing",
     },
     {
       icon: <BsTools className=" text-dark" />,
       title: "Manufacturing Excellence",
       description: "Integrating AI with lean principles enhances manufacturing excellence, optimizing speed and quality.",
-      link: "/use-cases/manufacturingExcellence",
+      link: "/use-cases/manufacturing-excellence",
     },
     {
       icon: <HiOutlineCog className=" text-warning" />,
       title: "Supply Chain Resilience",
       description: "Amid uncertainty, our Supply Chain Resilience solutions offer agility, robustness, and strategic foresight.",
-      link: "/use-cases/supplyChainResilience",
+      link: "/use-cases/supply-chain-resilience",
     },
     {
       icon: <GrAnnounce className=" text-warning" />,
       title: "Smart Marketing",
       description: "Utilize data-driven insights for compelling marketing narratives. Smart Marketing optimizes campaigns for maximum engagement and ROI.",
-      link: "/use-cases/smartMarketing",
+      link: "/use-cases/smart-marketing",
     },
     {
       icon: <IoGitCompareOutline className=" text-dark" />,
       title: "Smart Sales Operations",
       description: "Transform sales processes with AI-powered analytics. Streamline pipelines, enhance lead generation, and close deals efficiently.",
-      link: "/use-cases/smartSalesOperations",
+      link: "/use-cases/smart-sales-operations",
     },
     {
       icon: <FaLightbulb className=" text-success" />,
       title: "Sustainability Analytics",
       description: "Empower sustainability tracking and improvement with advanced analytics. Make informed decisions aligned with green goals.",
-      link: "/use-cases/sustainabilityAnalytics",
+      link: "/use-cases/sustainability-analytics",
     },
   ];
 
