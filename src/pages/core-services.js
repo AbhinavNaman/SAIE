@@ -13,7 +13,9 @@ import { GiBrain } from "react-icons/gi";
 
 const Integrations = () => {
   return (
-    <Layout title="Use-Cases" desc="This is integrations page">
+    <Layout title="Use-Cases" desc="This is integrations page"
+      canonicalUrl="https://saie.vercel.app/core-services"
+    >
       <Navbar classOption="navbar-light" />
       <PageHeader
         title="Core Services"
@@ -71,7 +73,7 @@ const Integrations = () => {
       <UseCaseSectionOne
         id="smart-ai-platform"
         title="Smart AI Platform"
-        desc=" Our Smart AI Platform is built on next generation Data and AI practices. The platform has tools needed Data Management, Analytics, Analytical AI and Generative AI, Visualization capabilities. It is cloud agnostic supporting Microsoft, AW, GCP, OCP etc. as well as LLM agnostic supporting any LLM of client’s choice.
+        desc=" Our Smart AI Platform is built on next generation Data and AI practices. The platform has tools needed for Data Management, Analytics, Analytical AI and Generative AI, Visualization capabilities. It is cloud agnostic supporting Microsoft, AW, GCP, OCP etc. as well as LLM agnostic supporting any LLM of client’s choice.
 "
         type="normal"
         image={"/core-services/5.webp"}

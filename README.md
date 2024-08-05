@@ -9,8 +9,8 @@
 Run the following command on your local environment:
 
 ```
-git clone https://github.com/saib-ai/saib.ai.git
-cd saib.ai
+git clone https://github.com/saie-ai/saie.ai.git
+cd saie.ai
 npm install
 ```
 

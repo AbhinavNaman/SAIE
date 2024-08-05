@@ -5,8 +5,9 @@ import { useTimezoneSelect, allTimezones } from "react-timezone-select";
 const labelStyle = "original";
 const timezones = { ...allTimezones };
 
-const ServiceForm = ({setReqSubmitted}) => {
+const ServiceForm = ({ setReqSubmitted }) => {
   const { options } = useTimezoneSelect({ labelStyle, timezones });
+
 
   const initialFormData = {
     fname: "",
@@ -37,7 +38,9 @@ const ServiceForm = ({setReqSubmitted}) => {
       case "email":
         return /\S+@\S+\.\S+/.test(value) ? "" : "Email is invalid.";
       case "mobileNumber":
-        return value === "" || /^[0-9]+$/.test(value) ? "" : "Mobile number is invalid.";
+        return value === "" || /^[0-9]+$/.test(value)
+          ? ""
+          : "Mobile number is invalid.";
       case "company":
         return value ? "" : "Company name is required.";
       case "country":
@@ -97,7 +100,9 @@ const ServiceForm = ({setReqSubmitted}) => {
 
       if (!response.ok) {
         const responseBody = await response.json();
-        alert(`Form data error!\nResponse: ${JSON.stringify(responseBody, null, 2)}`);
+        alert(
+          `Form data error!\nResponse: ${JSON.stringify(responseBody, null, 2)}`
+        );
       } else {
         // const responseBody = await response.json();
         setReqSubmitted(true);
@@ -108,12 +113,89 @@ const ServiceForm = ({setReqSubmitted}) => {
       }
     } catch (error) {
       setLoading(false);
-      alert("An error occurred while submitting the form data. Please try again later.");
+      alert(
+        "An error occurred while submitting the form data. Please try again later."
+      );
     }
   };
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+  
+  //   const newErrors = {};
+  //   Object.keys(formData).forEach((field) => {
+  //     const error = validate(field, formData[field]);
+  //     if (error) {
+  //       newErrors[field] = error;
+  //     }
+  //   });
+  
+  //   if (Object.keys(newErrors).length > 0) {
+  //     setErrors(newErrors);
+  //     return;
+  //   }
+  
+  //   setLoading(true);
+  //   try {
+  //     // First POST request to submit the form data
+  //     const response1 = await fetch(postDemoRequest, {
+  //       method: "POST",
+  //       headers: { "Content-Type": "application/json" },
+  //       body: JSON.stringify(formData),
+  //     });
+  
+  //     if (!response1.ok) {
+  //       const responseBody = await response1.json();
+  //       alert(
+  //         `Form data error!\nResponse: ${JSON.stringify(responseBody, null, 2)}`
+  //       );
+  //       setLoading(false);
+  //       return;
+  //     }
+  
+  //     // Second POST request to send the email
+  //     const response2 = await fetch('/api/send-email', {
+  //       method: "POST",
+  //       headers: { "Content-Type": "application/json" },
+  //     });
+  
+  //     if (!response2.ok) {
+  //       const responseBody = await response2.json();
+  //       alert(`Email sending error!\nResponse: ${JSON.stringify(responseBody, null, 2)}`);
+  //       setLoading(false);
+  //       return;
+  //     }
+  
+  //     // If both requests are successful
+  //     setReqSubmitted(true);
+  //     setSuccess("Project Request Sent successfully");
+  //     setFormData(initialFormData);
+  //     setTouchedFields({});
+  //     setLoading(false);
+  
+  //   } catch (error) {
+  //     setLoading(false);
+  //     alert("An error occurred while submitting the form data. Please try again later.");
+  //   }
+  // };
+
   return (
-    <div className="col-xl-5 col-lg-7 col-md-12 order-0 order-lg-1" >
+    <div className="w-100 h-100 d-flex flex-column">
       <div className="register-wrap p-5 bg-white shadow-lg border rounded-custom mt-4">
         <h3 className="fw-medium text-primary">
           Fill out the form and we will be in touch as soon as possible.
@@ -134,7 +216,9 @@ const ServiceForm = ({setReqSubmitted}) => {
                   required
                 />
               </div>
-              {errors.fname && <div className="text-danger">{errors.fname}</div>}
+              {errors.fname && (
+                <div className="text-danger">{errors.fname}</div>
+              )}
             </div>
             <div className="col-sm-6">
               <div className="input-group mb-3">
@@ -150,7 +234,9 @@ const ServiceForm = ({setReqSubmitted}) => {
                   required
                 />
               </div>
-              {errors.lname && <div className="text-danger">{errors.lname}</div>}
+              {errors.lname && (
+                <div className="text-danger">{errors.lname}</div>
+              )}
             </div>
             <div className="col-12">
               <div className="input-group mb-3">
@@ -165,7 +251,9 @@ const ServiceForm = ({setReqSubmitted}) => {
                   onBlur={handleBlur}
                 />
               </div>
-              {errors.mobileNumber && <div className="text-danger">{errors.mobileNumber}</div>}
+              {errors.mobileNumber && (
+                <div className="text-danger">{errors.mobileNumber}</div>
+              )}
             </div>
           </div>
           <div className="col-12">
@@ -182,7 +270,9 @@ const ServiceForm = ({setReqSubmitted}) => {
                 required
               />
             </div>
-            {errors.company && <div className="text-danger">{errors.company}</div>}
+            {errors.company && (
+              <div className="text-danger">{errors.company}</div>
+            )}
             <div className="input-group mb-3">
               <input
                 type="email"
@@ -210,9 +300,7 @@ const ServiceForm = ({setReqSubmitted}) => {
                 onBlur={handleBlur}
                 value={formData.country}
               >
-                <option value="US">
-                  US
-                </option>
+                <option value="US">US</option>
                 <option value="AF">Afghanistan</option>
                 <option value="AX">Åland Islands</option>
                 <option value="AL">Albania</option>
@@ -332,11 +420,15 @@ const ServiceForm = ({setReqSubmitted}) => {
                 <option value="KZ">Kazakhstan</option>
                 <option value="KE">Kenya</option>
                 <option value="KI">Kiribati</option>
-                <option value="KP">Korea, Democratic People s Republic of</option>
+                <option value="KP">
+                  Korea, Democratic People s Republic of
+                </option>
                 <option value="KR">Korea, Republic of</option>
                 <option value="KW">Kuwait</option>
                 <option value="KG">Kyrgyzstan</option>
-                <option value="LA">Lao People&apos;s Democratic Republic</option>
+                <option value="LA">
+                  Lao People&apos;s Democratic Republic
+                </option>
                 <option value="LV">Latvia</option>
                 <option value="LB">Lebanon</option>
                 <option value="LS">Lesotho</option>
@@ -346,7 +438,9 @@ const ServiceForm = ({setReqSubmitted}) => {
                 <option value="LT">Lithuania</option>
                 <option value="LU">Luxembourg</option>
                 <option value="MO">Macao</option>
-                <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                <option value="MK">
+                  Macedonia, the former Yugoslav Republic of
+                </option>
                 <option value="MG">Madagascar</option>
                 <option value="MW">Malawi</option>
                 <option value="MY">Malaysia</option>
@@ -400,7 +494,9 @@ const ServiceForm = ({setReqSubmitted}) => {
                 <option value="RU">Russian Federation</option>
                 <option value="RW">Rwanda</option>
                 <option value="BL">Saint Barthélemy</option>
-                <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                <option value="SH">
+                  Saint Helena, Ascension and Tristan da Cunha
+                </option>
                 <option value="KN">Saint Kitts and Nevis</option>
                 <option value="LC">Saint Lucia</option>
                 <option value="MF">Saint Martin (French part)</option>
@@ -421,7 +517,9 @@ const ServiceForm = ({setReqSubmitted}) => {
                 <option value="SB">Solomon Islands</option>
                 <option value="SO">Somalia</option>
                 <option value="ZA">South Africa</option>
-                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                <option value="GS">
+                  South Georgia and the South Sandwich Islands
+                </option>
                 <option value="SS">South Sudan</option>
                 <option value="ES">Spain</option>
                 <option value="LK">Sri Lanka</option>
@@ -465,7 +563,9 @@ const ServiceForm = ({setReqSubmitted}) => {
                 <option value="ZM">Zambia</option>
                 <option value="ZW">Zimbabwe</option>
               </select>
-              {errors.country && <div className="text-danger">{errors.country}</div>}
+              {errors.country && (
+                <div className="text-danger">{errors.country}</div>
+              )}
             </div>
           </div>
           <div className="col-12">
@@ -481,7 +581,7 @@ const ServiceForm = ({setReqSubmitted}) => {
                 required
               ></textarea>
             </div>
-              {errors.query && <div className="text-danger">{errors.query}</div>}
+            {errors.query && <div className="text-danger">{errors.query}</div>}
           </div>
           <div className="col-12">
             <div className="input-group mb-3">
@@ -513,10 +613,14 @@ const ServiceForm = ({setReqSubmitted}) => {
                   required
                 >
                   {options.map((option) => (
-                    <option key={option.value} value={option.value}>{option.label}</option>
+                    <option key={option.value} value={option.value}>
+                      {option.label}
+                    </option>
                   ))}
                 </select>
-                {errors.timeZone && <div className="text-danger">{errors.timeZone}</div>}
+                {errors.timeZone && (
+                  <div className="text-danger">{errors.timeZone}</div>
+                )}
               </div>
             </div>
             <div className="col-sm-6">
@@ -531,7 +635,9 @@ const ServiceForm = ({setReqSubmitted}) => {
                   onBlur={handleBlur}
                   required
                 >
-                  <option value="" disabled="">Slot</option>
+                  <option value="" disabled="">
+                    Slot
+                  </option>
                   {[...Array(24 * 2)].map((_, index) => {
                     const hour = index % 12 || 12;
                     const minute = index % 2 === 0 ? "00" : "30";
@@ -544,7 +650,9 @@ const ServiceForm = ({setReqSubmitted}) => {
                     );
                   })}
                 </select>
-                {errors.timeSlot && <div className="text-danger">{errors.timeSlot}</div>}
+                {errors.timeSlot && (
+                  <div className="text-danger">{errors.timeSlot}</div>
+                )}
               </div>
             </div>
           </div>
@@ -558,19 +666,40 @@ const ServiceForm = ({setReqSubmitted}) => {
                 onChange={handleChange}
                 id="flexCheckChecked"
               />
-              <label className="form-check-label small text-black" htmlFor="flexCheckChecked">
-                Yes, I would like to receive occasional marketing emails from us. I have the right to opt out at any time.
+              <label
+                className="form-check-label small text-black"
+                htmlFor="flexCheckChecked"
+              >
+                Yes, I would like to receive occasional marketing emails from
+                us. I have the right to opt out at any time.
                 <a href="#"> View privacy policy</a>.
               </label>
             </div>
           </div>
+          {/* react-calendly */}
+          {/* <div ref={rootRef}>
+            {rootElement && (
+              <PopupWidget
+                url="https://calendly.com/abhinav-edcults/30min"
+                rootElement={rootElement}
+                text="Schedule Demo"
+                textColor="#ffffff"
+                color="#00a2ff"
+              />
+            )}
+          </div> */}
+          {/* <InlineWidget url="https://calendly.com/abhinav-edcults/30min" /> */}
+
+
           {success && <p className="text-success">{success}</p>}
           <div className="col-12">
             <button
               type="submit"
               className="btn btn-primary mt-4 d-block w-100"
               disabled={loading}
-              style={{ background: "linear-gradient(115deg, #3fea2c, #31c47f)" }}
+              style={{
+                background: "linear-gradient(115deg, #3fea2c, #31c47f)",
+              }}
             >
               {loading ? "Loading..." : "Get Started"}
             </button>

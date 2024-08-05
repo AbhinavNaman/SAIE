@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
-import { FaRegUser } from "react-icons/fa";
-import { BsWatch } from "react-icons/bs";
+// import Image from "next/image";
+// import { FaRegUser } from "react-icons/fa";
+// import { BsWatch } from "react-icons/bs";
 
 const SingleServiceFeature = () => {
   return (
@@ -14,9 +14,7 @@ const SingleServiceFeature = () => {
               <p style={{ color: "black" }}>
               {/* style={{ color: "#fdfdfd" }} */}
                 We bring strong industry, functional, data, AI and technology
-                capabilities to help our clients transform their businesses. We
-                are a team of over 25+ employees, with a strong presence in the
-                US and India. We have a strong client base and are a trusted
+                capabilities to help our clients transform their businesses. We are a team of over 25+ employees, with a strong presence in both the US and India. We have a strong client base and are a trusted
                 partner to several Fortune 500 companies. Our consultants and
                 assets bring innovation, knowledge, and deep domain experience
                 to our clients.

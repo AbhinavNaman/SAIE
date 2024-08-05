@@ -20,6 +20,8 @@ const DataMonetization = () => {
 
 
       <UseCaseSectionOne
+        desc="
+Data monetization is the process of leveraging data to generate revenue. This can be done directly by selling data or indirectly by using data insights to improve business operations, enhance customer experiences, or create new products and services. Companies collect and analyze data to uncover patterns and trends that can drive decision-making and strategy. With the rise of big data and advanced analytics, data monetization has become a key aspect of modern business models, helping organizations unlock the hidden value in their data assets."
         type="normal"
         image={"/use-cases/6.jpeg"}
         icon={<FaDatabase />}

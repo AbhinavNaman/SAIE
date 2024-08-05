@@ -6,8 +6,8 @@ import Navbar from "@layout/Header/Navbar";
 import PageHeader from "@components/common/PageHeader";
 import SingleServicePromo from "@components/services/SingleServicePromo";
 import SingleServiceRegister from "@components/services/SingleServiceRegister";
-import SingleServiceFeature from "@components/services/SingleServiceFeature";
-import SingleServiceFeatureTwo from "@components/services/SingleServiceFeatureTwo";
+// import SingleServiceFeature from "@components/services/SingleServiceFeature";
+// import SingleServiceFeatureTwo from "@components/services/SingleServiceFeatureTwo";
 import UseCaseSectionOne from "@components/services/UseCaseSection1";
 import { MdFiberSmartRecord } from "react-icons/md";
 import { BsTools } from "react-icons/bs";
@@ -18,29 +18,29 @@ import { BiSolidReport } from "react-icons/bi";
 import { GrAnnounce } from "react-icons/gr";
 import { MdCrisisAlert } from "react-icons/md";
 import { IoMdAnalytics } from "react-icons/io";
-import {
-  supplyChainResilienceDataCurrentChallenges,
-  supplyChainResilienceDataCurrentPropositions,
-  smartChallengesPropositions,
-  SmartChallengesChallenges,
-  manufacturingExcellenceChallenges,
-  manufacturingExcellenceProposition,
-  smartMarketingChallenges,
-  smartMarketingProposition,
-  smartSalesOperationChallenges,
-  smartSalesOperationProposition,
-  pricingAndProfitabilityChallenges,
-  pricingAndProfitabilityProposition,
-  smartSourcingProposition,
-  smartSourcingChallenges,
-} from "@utils/data";
+// import {
+//   supplyChainResilienceDataCurrentChallenges,
+//   supplyChainResilienceDataCurrentPropositions,
+//   smartChallengesPropositions,
+//   SmartChallengesChallenges,
+//   manufacturingExcellenceChallenges,
+//   manufacturingExcellenceProposition,
+//   smartMarketingChallenges,
+//   smartMarketingProposition,
+//   smartSalesOperationChallenges,
+//   smartSalesOperationProposition,
+//   pricingAndProfitabilityChallenges,
+//   pricingAndProfitabilityProposition,
+//   smartSourcingProposition,
+//   smartSourcingChallenges,
+// } from "@utils/data";
 import { RiProductHuntLine } from "react-icons/ri";
 import UseCaseTitle from "@components/workprocess/customUseCaseTitle";
 import Link from "next/link";
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
 const Integrations = () => {
-  const router = useRouter();
+  // const router = useRouter();
   return (
     <Layout title="Use-Cases" desc="This is integrations page">
       <Navbar classOption="navbar-light" />
@@ -94,7 +94,7 @@ const Integrations = () => {
 
       <UseCaseTitle
         title="Advanced Business Solutions"
-        desc="At SMART AI FOR ENTERPRISE INC. our mission is to fuel your growth trajectory with smart, scalable, and sustainable strategies. Dive into the new era of profitability with our suite of services"
+        desc="At SMART AI FOR ENTERPRISE INC. our mission is to fuel your growth trajectory with smart, scalable, and sustainable strategies. Dive into the new era of profitability with our suite of services."
       />
       <Link href="/use-cases/smart-marketing">
         <a>
@@ -140,7 +140,7 @@ const Integrations = () => {
 
       <UseCaseTitle
         title="Innovative Business Models"
-        desc="At SMART AI FOR ENTERPRISE INC we're not just adapting to the new economy; we're creating it. Our innovative strategies are tailored to help your business lead and thrive through transformation and monetization:"
+        desc="At SMART AI FOR ENTERPRISE INC we're not just adapting to the new economy; we're creating it. Our innovative strategies are tailored to help your business lead and thrive through transformation and monetization."
       />
       <Link href="/use-cases/smart-finance-operations">
         <a>

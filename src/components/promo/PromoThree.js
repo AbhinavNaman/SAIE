@@ -16,7 +16,7 @@ const slider = [
   {
     id: 1,
     title: "Platforms",
-    data: " Azure, AWS, IBM, GCP, Heroku, DigitalOcean: Smart AI for Enterprise seamlessly supports an extensive range of platforms, facilitating efficient integration",
+    data: " Azure, AWS, IBM, GCP, Heroku, DigitalOcean: Smart AI for Enterprise seamlessly supports an extensive range of platforms, facilitating efficient integration.",
     src: "/capalities-wallpaper/platform.png",
   },
   {
@@ -107,6 +107,7 @@ const PromoThree = ({ hasBg }) => {
                     src={data.src}
                     width={1280}
                     height={920}
+                    alt="image"
                   />
                   <div className="card-img-overlay p-0">
                     <div className="card-block">

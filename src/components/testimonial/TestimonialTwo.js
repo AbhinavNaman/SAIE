@@ -1,10 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Navigation } from "swiper";
 
-import Rating from "../common/Rating";
+// import Rating from "../common/Rating";
 import SectionTitle from "../common/SectionTitle";
 // import { TestimonialData } from "../../utils/data";
 
@@ -13,7 +13,7 @@ const data = {
   authorName: "Sanjay Mamidipalli",
   authorTitle: "SAIE AI",
   authorQuote:
-    "Senior Executive with more than 25 years of experience and deep expertise within the consulting industry selling and delivering next generation data and AI driven transformation programs. Passionate about creating business value through data driven approaches, building senior CXO client relationships, market development and leading high-performing consulting teams.",
+    "Senior Executive with more than 25 years of experience and deep expertise within the consulting industry, selling and delivering next generation data and AI driven transformation programs. Passionate about creating business value through data driven approaches, building senior CXO client relationships, market development and leading high-performing consulting teams.",
 };
 
 const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
@@ -85,7 +85,7 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
               {sectionBgClass ? (
                 <SectionTitle
                   subtitle="Our Founder"
-                  description="We have a team of dedicated professionals who are committed to delivering the best results for our clients. Our team is a mix of experienced professionals and young talent, who are passionate about what they do."
+                  description="He has a team of dedicated professionals who are committed to delivering the best results for our clients. Our team is a mix of experienced professionals and young talent, who are passionate about what they do."
                   darkBg
                   // centerAlign
                   centerAlign={!isMobile}

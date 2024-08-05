@@ -22,7 +22,11 @@ import MiniCoreServices from "@components/workprocess/miniCoreServices";
 import Industries from "@components/promo/Industries";
 const StartUpAgencyHome = () => {
   return (
-    <Layout>
+    <Layout
+    title="Home"
+    desc="Welcome to the home page of SMART AI FOR ENTERPRISE INC "
+    canonicalUrl="https://saie.vercel.app/"
+    >
       <Navbar navDark />
       {/* <HeroSectionFourth bgDark /> */}
       <HeroSectionFourth />

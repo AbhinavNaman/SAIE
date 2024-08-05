@@ -1,4 +1,4 @@
-// export const url = "https://api.saib.ai";
+// export const url = "https://api.saie.ai";
 // export const url = "http://localhost:8000";
 export const url = "https://saie-app.edcults.com";
 export const middleware = "/api";

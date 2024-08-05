@@ -2,7 +2,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 
-const HeroTitle = ({ subtitle, title, desc }) => {
+const HeroTitle = ({ subtitle, title }) => {
   return (
     <>
       {subtitle ? <h5 className="text-warning">{subtitle}</h5> : ""}
@@ -12,7 +12,7 @@ const HeroTitle = ({ subtitle, title, desc }) => {
       <TypeAnimation
         sequence={[
           // Text 1
-          "Deliver Comprehensive value proposition with Next Generation AI capabilities to optimize operations, drive Growth, Innovate new Business Models and integrate Environment Social and Governance (ESG), excellence while positively impacting the society.",
+          "Deliver Comprehensive value proposition with Next Generation AI capabilities to optimize operations, drive Growth, Innovate new Business Models and integrate Environment Social and Governance (ESG) excellence while positively impacting the society.",
           3000, // Display text for 3 seconds
           '', // Clear text instantly
           0, // Immediate transition
@@ -24,7 +24,7 @@ const HeroTitle = ({ subtitle, title, desc }) => {
           0,
 
           // Text 3
-          "We are committed to pioneering Innovative AI solutions that enhance human potential, Foster sustainability and promote inclusive progress through relentless Innovation, Ethical practices and collaboration.",
+          "We are committed to pioneering Innovative AI solutions that enhance human potential, foster sustainability and promote inclusive progress through relentless innovation, ethical practices and collaboration.",
           3000,
           '',
           0,
@@ -36,8 +36,8 @@ const HeroTitle = ({ subtitle, title, desc }) => {
           0,
         ]}
         speed={50}
-        style={{ marginTop: "10px" }}
-        className="max-w-6xl max-h-20 overflow-hidden"
+        style={{ marginTop: "10px",  fontSize: "24px" }}
+        className="max-w-6xl max-h-20 overflow-hidden "
         repeat={Infinity}
         omitDeletionAnimation={true} // Optional: to prevent any built-in deletion animation
       />
