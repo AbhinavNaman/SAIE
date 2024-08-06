@@ -137,13 +137,13 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
                 overflowWrap: "break-word",
               }}
             >
-              <h1
+              <h2
                 className="mb-0 text-primary"
                 style={{ textAlign: isMobile ? "center" : "" }}
               >
                 {data?.authorName}
                 <br />
-              </h1>
+              </h2>
               <h3
                 style={{
                   marginBottom: "30px",

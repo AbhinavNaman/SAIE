@@ -99,7 +99,7 @@ export default function MiniCoreServices() {
           <div className="col-12 col-lg-3">
             <div className="row">
               <div className="col-12 col-xl-11">
-                <h1 className="mb-3 mb-xl-4 text-primary">Core Services</h1>
+                <h2 className="mb-3 mb-xl-4 text-primary">Core Services</h2>
                 <p className="mb-3 mb-xl-4" style={{ color: "black" }}>
                   At SMART AI FOR ENTERPRISE INC. we are dedicated to providing
                   solutions that not only drive innovation but are also grounded
@@ -117,7 +117,7 @@ export default function MiniCoreServices() {
           <div className="col-12 col-lg-9 overflow-hidden">
             <div className="row gy-4">
               {cards.map((card, index) => (
-                <Link href={card.href} key={index}>
+                <Link href={card.href} key={index} passHref>
                   <div
                     className="col-12 col-sm-6"
                     onMouseEnter={() => handleMouseEnter(index)}

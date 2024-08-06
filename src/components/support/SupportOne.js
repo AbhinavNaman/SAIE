@@ -38,9 +38,9 @@ const SupportOne = ({ className }) => {
               <div className="subscribe-info-wrap text-center position-relative z-2">
                 <div className="section-heading">
                   <h4 className="h5" style={{color:"#00205e"}}>Let&apos;s Try! Get Free Demo</h4>
-                  <h1 className="" style={{color:"#00205e"}}>
+                  <h2 className="" style={{color:"#00205e"}}>
                     Get a Specialized Demo for Free
-                  </h1>
+                  </h2>
                   <p className="" style={{color:"#00205e"}}>
                   {/* text-white */}
                     We are ready to provide you with a specialized demo for free

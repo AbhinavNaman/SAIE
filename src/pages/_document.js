@@ -29,7 +29,7 @@ class MyDocument extends Document {
           />
 
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://www.saie.ai/" />
+          <meta property="og:url" content="https://saie.vercel.app/" />
           <meta
             property="og:title"
             content="SMART AI FOR ENTERPRISE INC- AI Solutions"
