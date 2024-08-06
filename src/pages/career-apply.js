@@ -24,7 +24,7 @@ const RequestDemo = () => {
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-7 order-1 order-lg-0">
             <div className="testimonial-tab-slider-wrap mt-5 mt-lg-0 mt-xl-0">
-              <h2 className="text-primary">Apply for your Position {job}</h2>
+              <h2 className="text-primary">Apply for the Position of {job}</h2>
               <hr />
             </div>
           </div>

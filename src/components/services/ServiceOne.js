@@ -72,8 +72,8 @@ const ServiceOne = ({ bgDark }) => {
               />
             ) : (
               <SectionTitle
-                subtitle="Use Cases"
-                title="Key use cases to grow your Business Value"
+                subtitle="Key use cases to grow your Business Value"
+                title=" "
                 description="Join the world’s leading companies who trust SMART AI FOR ENTERPRISE INC to build"
                 centerAlign
               />

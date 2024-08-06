@@ -203,8 +203,8 @@ const Navbar = ({ navDark, insurance, classOption }) => {
           </div>
 
           <div className="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
-            <Link href="request-demo">
-              <a
+            <Link href="/request-demo" passHref>
+              <span
                 className={
                   insurance
                     ? "ins-btn ins-primary-btn"
@@ -213,7 +213,7 @@ const Navbar = ({ navDark, insurance, classOption }) => {
                 style={{background: "linear-gradient(115deg, #3fea2c, #31c47f)", border: "1px solid black"}}
               >
                 Book a Demo
-              </a>
+              </span>
             </Link>
           </div>
 

@@ -138,8 +138,10 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
               }}
             >
               <h2
-                className="mb-0 text-primary"
+                className="mb-0 text-primary "
                 style={{ textAlign: isMobile ? "center" : "" }}
+
+                
               >
                 {data?.authorName}
                 <br />
@@ -158,6 +160,7 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
                   color: "black",
                   wordWrap: "break-word",
                   overflowWrap: "break-word",
+                  textAlign:"justify"
                 }}
               >
                 {data?.authorQuote}

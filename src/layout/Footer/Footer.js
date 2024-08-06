@@ -83,7 +83,7 @@ const Footer = ({ footerLight, style, footerGradient }) => {
                   </div>
                   <p>
                     Our latest news, articles, and resources, we will send to
-                    your inbox weekly.
+                    your Inbox weekly.
                   </p>
 
                   <form

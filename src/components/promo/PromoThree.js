@@ -10,7 +10,7 @@ const slider = [
   {
     id: 1,
     title: "Data Management",
-    data: "Seamless data integration, analysis, and compliance with platforms like IBM's Infosphere Information Server AWS Glue and Azure Data Factory. Optimize workflows and drive innovation using various tools.",
+    data: "Seamless data integration, analysis, and compliance with platforms like IBM's InfoSphere Information Server AWS Glue and Azure Data Factory. Optimize workflows and drive innovation using various tools.",
     src: "/capalities-wallpaper/Data and Management.png",
   },
   {
@@ -48,7 +48,7 @@ const PromoThree = ({ hasBg }) => {
             <div className="col-md-10 col-lg-6">
               <SectionTitle
                 title="Key elements shaping our engineering strategy"
-                description="We bring strong industry, functional, data, AI And technology services"
+                description="We bring strong industry, functional, data, AI and technology services"
                 centerAlign
               />
             </div>

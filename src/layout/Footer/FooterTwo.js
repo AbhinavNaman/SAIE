@@ -22,8 +22,8 @@ const FooterTwo = () => {
                 </div>
                 <p className="text-white">
                   Our latest news, articles, and resources, we will sent to your
-                  inbox weekly. Our latest news, articles, and resources, we
-                  will sent to your inbox weekly.
+                  Inbox weekly. Our latest news, articles, and resources, we
+                  will sent to your Inbox weekly.
                 </p>
                 <ul className="list-unstyled list-inline cyber-footer-social-list mb-0">
                   <li className="list-inline-item">
