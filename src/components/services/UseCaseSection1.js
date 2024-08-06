@@ -20,7 +20,7 @@ const UseCaseSectionOne = ({
         <section id={id} className="image-feature pt-60 pb-120">
           <div className="container">
             <div className="row justify-content-between align-items-center">
-              <div className="col-lg-5 col-12 order-lg-1" style={{textAlign:"justify"}}>
+              <div className="col-lg-5 col-12 order-lg-1">
                 <div className="feature-img-content" >
                   <div className="icon-box rounded-custom bg-dark shadow-sm d-inline-block">
                     <span className="fal custom-icon text-white">{icon}</span>
@@ -62,7 +62,7 @@ const UseCaseSectionOne = ({
         <section id={id} className="image-feature pt-60 pb-120">
           <div className="container">
             <div className="row justify-content-between align-items-center">
-              <div className="col-lg-5 col-12 order-lg-1" style={{textAlign:"justify"}}>
+              <div className="col-lg-5 col-12 order-lg-1">
                 <div className="feature-img-content">
                   <div className="icon-box rounded-custom bg-dark shadow-sm d-inline-block">
                     <span className="fal text-white">
