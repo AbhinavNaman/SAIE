@@ -10,7 +10,7 @@ const slider = [
   {
     id: 1,
     title: "Data Management",
-    data: "Seamless data integration, analysis, and compliance with platforms like IBM's InfoSphere Information Server AWS Glue and Azure Data Factory. Optimize workflows and drive innovation using various tools.",
+    data: "Seamless data integration, analysis, and compliance with platforms like IBM's InfoSphere Information Server, AWS Glue and Azure Data Factory. Optimize workflows and drive innovation using various tools.",
     src: "/capalities-wallpaper/Data and Management.png",
   },
   {

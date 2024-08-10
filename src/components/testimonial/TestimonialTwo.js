@@ -85,7 +85,7 @@ const TestimonialTwo = ({ sectionBgClass, swiperBgClass }) => {
               {sectionBgClass ? (
                 <SectionTitle
                   subtitle="Our Founder"
-                  description="He has a team of dedicated professionals who are committed to delivering the best results for our clients. Our team is a mix of experienced professionals and young talent, who are passionate about what they do."
+                  description="Sanjay has a team of dedicated professionals who are committed to delivering the best results for our clients. Our team is a mix of experienced and diverse professionals in US and India, who are passionate about what they do and bring strong capabilities in Data and AI, along with industry and functional skills."
                   darkBg
                   // centerAlign
                   centerAlign={!isMobile}
