@@ -34,8 +34,7 @@ const SingleServiceRegister = () => {
             </div> */}
             <div className="d-flex flex-column" style={{ height: "100%", width: "100%" }}>
               <InlineWidget
-                url="https://calendly.com/getintouch-saie/demo"
-                // url="https://calendly.com/ronak-saie/saie-demo"
+                url="https://calendly.com/ronak-saie/saie-demo"
                 styles={{ height: "100%", width: "100%" }}
               />
             </div>
