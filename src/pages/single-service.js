@@ -11,7 +11,7 @@ import SingleServiceFeatureTwo from "@components/services/SingleServiceFeatureTw
 
 const SingleService = () => {
   return (
-    <Layout title="Services" desc="This is services single page">
+    <Layout title="Services" desc="This is services single page" canonicalUrl="https://saie.ai/single-service">
       <Navbar />
       <PageHeader
         title="Quality Software Services"

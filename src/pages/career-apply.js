@@ -18,7 +18,7 @@ const RequestDemo = () => {
   }, []);
 
   return (
-    <Layout title="Apply for Current Openings" desc="Careers">
+    <Layout title="Apply for Current Openings" desc="Careers" canonicalUrl="https://saie.ai/career-apply">
       <Navbar navDark />
       <div className="container">
         <div className="row align-items-center justify-content-between">

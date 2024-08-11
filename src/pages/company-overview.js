@@ -9,7 +9,7 @@ import CareerPromo from "@components/career/CareerPromo";
 
 const ContactUs = () => {
   return (
-    <Layout title="Company Overview" desc="">
+    <Layout title="Company Overview" desc="" canonicalUrl="https://saie.ai/company-overview">
       <Navbar classOption="navbar-light" />
       <PageHeader
         title="Company Overview"

@@ -13,7 +13,7 @@ import { GiBrain } from "react-icons/gi";
 
 const Integrations = () => {
   return (
-    <Layout title="Use-Cases" desc="This is integrations page">
+    <Layout title="Use-Cases" desc="This is integrations page" canonicalUrl="https://saie.ai/data-and-ai-strategy">
       <Navbar classOption="navbar-light" />
       <PageHeader
         title="Data and AI Strategy"

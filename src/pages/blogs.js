@@ -29,7 +29,7 @@ export default function Page() {
   console.log("blogData:", blogData);
 
   return (
-    <Layout title="Blog" desc="This is blog page">
+    <Layout title="Blog" desc="This is blog page" canonicalUrl="https://saie.ai/blogs">
       <Navbar />
       <PageHeader title="Upcoming Blogs" />
       <section className="masonary-blog-section ptb-60 blog-hero-spc-padding">

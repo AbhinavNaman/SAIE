@@ -25,7 +25,7 @@ const StartUpAgencyHome = () => {
     <Layout
     title="Home"
     desc="Welcome to the home page of SMART AI FOR ENTERPRISE INC "
-    canonicalUrl="https://saie.vercel.app/"
+    canonicalUrl="https://saie.ai"
     >
       <Navbar navDark />
       {/* <HeroSectionFourth bgDark /> */}

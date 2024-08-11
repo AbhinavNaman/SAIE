@@ -10,7 +10,7 @@ import IntegrationFeature from "@components/integration/IntegrationFeature";
 
 const Integrations = () => {
   return (
-    <Layout title="Integrations" desc="This is integrations page">
+    <Layout title="Integrations" desc="This is integrations page" canonicalUrl="https://saie.ai/integration">
       <Navbar classOption="navbar-light" />
       <PageHeader
         title="Our Featured Integrations"

@@ -7,7 +7,7 @@ import SingleServiceRegister from "@components/services/SingleServiceRegister";
 
 const RequestDemo = () => {
   return (
-    <Layout title="Request Demo" desc="This is request demo page">
+    <Layout title="Request Demo" desc="This is request demo page" canonicalUrl="https://saie.ai/request-demo">
       <Navbar navDark />
       <SingleServiceRegister />
 

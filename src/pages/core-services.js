@@ -14,7 +14,7 @@ import { GiBrain } from "react-icons/gi";
 const Integrations = () => {
   return (
     <Layout title="Use-Cases" desc="This is integrations page"
-      canonicalUrl="https://saie.vercel.app/core-services"
+      canonicalUrl="https://saie.ai/core-services"
     >
       <Navbar classOption="navbar-light" />
       <PageHeader

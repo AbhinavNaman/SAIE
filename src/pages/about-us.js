@@ -12,7 +12,7 @@ import FeatureImgContentTwo from "@components/feature-img-content/FeatureImgCont
 
 const AboutUs = () => {
   return (
-    <Layout title="About Us" desc="this is about us page">
+    <Layout title="About Us" desc="this is about us page" canonicalUrl="https://saie.ai/about-us">
       <Navbar classOption="navbar-light" />
       <HeroSectionTwo />
       <OurStory />

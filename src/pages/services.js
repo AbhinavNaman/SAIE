@@ -10,7 +10,7 @@ import TestimonialTwo from "@components/testimonial/TestimonialTwo";
 
 const services = () => {
   return (
-    <Layout title="Services" desc="this is services page  ">
+    <Layout title="Services" desc="this is services page  " canonicalUrl="https://saie.ai/services">
       <Navbar classOption="navbar-light" />
       <PageHeader
         title="We are Development Experts"

@@ -4,4 +4,4 @@ User-agent: *
 Disallow: /api/
 Allow: /
 
-Sitemap: https://saie.vercel.app/
+Sitemap: https://saie.ai

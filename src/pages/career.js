@@ -9,7 +9,7 @@ import CareerFeature from "@components/career/CareerFeature";
 
 const Career = () => {
   return (
-    <Layout title="Career" desc="This is career page">
+    <Layout title="Career" desc="This is career page" canonicalUrl="https://saie.ai/career">
       <Navbar classOption="navbar-light" />
       <PageHeader
         title="Careers"
