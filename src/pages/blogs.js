@@ -3,8 +3,7 @@ import Layout from "@layout/Layout";
 import Footer from "@layout/Footer/Footer";
 import Navbar from "@layout/Header/Navbar";
 import PageHeader from "@components/common/PageHeader";
-import { fetchBlogs } from "@utils/consts";
-import Image from "next/image";
+import { fetchBlogs, imageStroage } from "@utils/consts";
 
 export default function Page() {
   const [blogData, setBlogData] = useState([]);
@@ -15,6 +14,7 @@ export default function Page() {
       try {
         const res = await fetch(fetchBlogs, { cache: "force-cache" });
         const data = await res.json();
+        console.log(data);
         setBlogData(data.posts || []);
         setLoading(false);
       } catch (error) {
@@ -27,14 +27,6 @@ export default function Page() {
   }, []);
 
   console.log("blogData:", blogData);
-
-  const imageUrl = [
-    "https://th.bing.com/th/id/OIP.0-dYGJDq118PJ0QaNKws7gHaEK?rs=1&pid=ImgDetMain",
-    "https://suryacipta.com/wp-content/uploads/2023/03/2E46D5D1-B091-4A96-82E5-FFC38DA8A16E-1024x587.jpeg",
-    "https://www.royalhaskoningdhv.com/-/jssmedia/images/services/maritime/smart-asset-management-h.jpg?mw=1200",
-    "https://virtuzone.com/wp-content/uploads/2023/06/profitable-growth-6-1280x845.jpg",
-    "https://th.bing.com/th/id/OIP.d0v03UPDV7gd8fUdHMc1AwAAAA?rs=1&pid=ImgDetMain",
-  ];
 
   return (
     <Layout title="Blog" desc="This is blog page">
@@ -54,11 +46,10 @@ export default function Page() {
                 <div key={i + 1} className="col-lg-4 col-md-6">
                   <div className="single-article bg-dark-shade rounded-custom my-3">
                     <div className="article-img">
-                      <img
+                    <img
                         width={414}
                         height={224}
-                        // src={blog.image}
-                        src={imageUrl[i]}
+                        src={blog.image.startsWith('http') ? blog.image : `${imageStroage}${blog.image}`}
                         alt="article"
                       />
                     </div>
@@ -68,18 +59,18 @@ export default function Page() {
                         <p
                           className={`d-inline-block text-white badge ${blog.class}`}
                         >
-                          {blog.category.name}
+                          {blog?.category?.name}
                         </p>
                       </div>
 
                       <a>
                         <h2 className="h5 article-title limit-2-line-text text-primary">
-                          {blog.title}
+                          {blog?.title}
                         </h2>
                       </a>
 
                       <p className="limit-2-line-text text-white">
-                        {blog.seo_description}
+                        {blog?.seo_description || blog?.content}
                       </p>
                     </div>
                   </div>
